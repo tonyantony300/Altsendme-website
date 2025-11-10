@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://altsendme.com/sitemap.xml
+

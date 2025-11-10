@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useTranslations } from 'next-intl';
-import { track } from '@vercel/analytics';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Home() {
@@ -45,48 +44,30 @@ export default function Home() {
       label: t('hero.downloadForMacAppleSilicon'),
       size: "12.6 MB",
       icon: "/applelogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_arm64.dmg",
-      version: "0.1.0",
-      platform: "mac-apple-silicon",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_aarch64_darwin.dmg",
     },
     {
       id: "mac-intel",
       label: t('hero.downloadForMacIntel'),
-      size: "12.6 MB",
+      size: "13.1 MB",
       icon: "/applelogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_x64.dmg",
-      version: "0.1.0",
-      platform: "mac-intel",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_x64_darwin.dmg",
     },
     {
       id: "windows",
       label: t('hero.downloadForWindows'),
-      size: "15.8 MB",
+      size: "7.57 MB",
       icon: "/windows.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_x64-setup.exe",
-      version: "0.1.0",
-      platform: "windows",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_x64-setup_windows.exe",
     },
     {
       id: "linux-appimage",
       label: t('hero.downloadForLinuxAppImage'),
-      size: "8.2 MB",
+      size: "86.8 MB",
       icon: "/linuxlogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_amd64.AppImage",
-      version: "0.1.0",
-      platform: "linux-appimage",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_amd64_linux.AppImage",
     },
   ];
-
-  // Track download events
-  const handleDownload = (option) => {
-    track('download_started', {
-      platform: option.platform,
-      version: option.version,
-      detected_os: detectedOS,
-      download_id: option.id,
-    });
-  };
 
   const primaryDownload = downloadOptions.find((opt) => 
     (detectedOS === "mac" && opt.id === "mac-apple-silicon") ||
@@ -160,7 +141,6 @@ export default function Home() {
                 href={primaryDownload.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={() => handleDownload(primaryDownload)}
                 className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-all h-16 rounded-[20px] px-6 text-xl flex-1 rounded-r-none border-0 shadow-none group-hover:shadow-none transform-none group-hover:transform-none bg-transparent hover:bg-transparent text-foreground"
               >
                 <Image
@@ -209,7 +189,6 @@ export default function Home() {
                       href={option.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      onClick={() => handleDownload(option)}
                       className="w-full flex items-center justify-between px-4 py-3 text-left hover:text-foreground hover:bg-foreground hover:bg-opacity-5 rounded-2xl transition-all whitespace-nowrap"
                     >
                       <div className="flex items-center gap-3 min-w-0">
@@ -245,7 +224,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-4 max-w-[1200px] mx-auto md:flex-row md:justify-between md:items-center md:gap-0">
           <p className="font-fanwood-text text-sm text-center md:text-left">{t('common.license')}</p>
           <div className="flex flex-col items-center gap-3 md:flex-row md:gap-6 md:items-center">
-            <a href="mailto:placeholder@example.com" className="font-fanwood-text text-sm text-footer-text">{t('common.hireDeveloper')}</a>
+            <a href="mailto:tnyantny@protonmail.com" className="font-fanwood-text text-sm text-footer-text hover:underline underline-offset-[3px]">{t('common.hireDeveloper')}</a>
             <a href="#buy-me-a-coffee" className="font-fanwood-text text-sm text-footer-text block md:hidden flex items-center gap-2">
               {t('common.buyMeACoffee')}
             </a>

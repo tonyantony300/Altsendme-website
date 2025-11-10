@@ -70,6 +70,19 @@ export async function generateMetadata({ params }) {
     applicationName: "AltSendme",
     category: "File Transfer Software",
     classification: "Desktop Application",
+    icons: {
+      icon: [
+        { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+        { url: "/favicon.ico", sizes: "any" },
+      ],
+      apple: [
+        { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      ],
+      other: [
+        { rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#000000" },
+      ],
+    },
     openGraph: {
       type: "website",
       locale: ogLocaleMap[locale] || 'en_US',
@@ -79,9 +92,9 @@ export async function generateMetadata({ params }) {
       description: t('meta.description'),
       images: [
         {
-          url: "/hero.png",
+          url: "/og-image.png",
           width: 1200,
-          height: 800,
+          height: 630,
           alt: "AltSendme - Peer-to-peer file transfer application",
         },
       ],
@@ -90,7 +103,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title: t('meta.title'),
       description: t('meta.description'),
-      images: ["/hero.png"],
+      images: ["/og-image.png"],
       creator: "@tonyantony300",
     },
     robots: {
