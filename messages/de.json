@@ -8,10 +8,10 @@
   },
   "hero": {
     "title": "Dateien <em>überall hin</em> senden - schnell, privat und einfach.",
-    "downloadForMac": "Für Mac herunterladen",
+    "downloadForMacAppleSilicon": "Für Mac herunterladen (Apple Silicon)",
+    "downloadForMacIntel": "Für Mac herunterladen (Intel)",
     "downloadForWindows": "Für Windows herunterladen",
-    "downloadForLinuxAppImage": "Für Linux herunterladen (AppImage)",
-    "downloadForLinuxDeb": "Für Linux herunterladen (Deb)"
+    "downloadForLinuxAppImage": "Für Linux herunterladen (AppImage)"
   },
   "meta": {
     "title": "Dateien überall hin senden | Reibungslos, schnell, privat, unbegrenzt und kostenlos",

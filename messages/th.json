@@ -8,10 +8,10 @@
   },
   "hero": {
     "title": "ส่งไฟล์ <em>ไปที่ไหนก็ได้</em> - เร็ว เป็นส่วนตัว และเรียบง่าย",
-    "downloadForMac": "ดาวน์โหลดสำหรับ Mac",
+    "downloadForMacAppleSilicon": "ดาวน์โหลดสำหรับ Mac (Apple Silicon)",
+    "downloadForMacIntel": "ดาวน์โหลดสำหรับ Mac (Intel)",
     "downloadForWindows": "ดาวน์โหลดสำหรับ Windows",
-    "downloadForLinuxAppImage": "ดาวน์โหลดสำหรับ Linux (AppImage)",
-    "downloadForLinuxDeb": "ดาวน์โหลดสำหรับ Linux (Deb)"
+    "downloadForLinuxAppImage": "ดาวน์โหลดสำหรับ Linux (AppImage)"
   },
   "meta": {
     "title": "ส่งไฟล์ไปที่ไหนก็ได้ | ไร้แรงเสียดทาน เร็ว เป็นส่วนตัว ไม่จำกัด และฟรี",

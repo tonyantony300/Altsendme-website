@@ -8,10 +8,10 @@
   },
   "hero": {
     "title": "Envoyez des fichiers <em>n'importe où</em> - rapide, privé et simple.",
-    "downloadForMac": "Télécharger pour Mac",
+    "downloadForMacAppleSilicon": "Télécharger pour Mac (Apple Silicon)",
+    "downloadForMacIntel": "Télécharger pour Mac (Intel)",
     "downloadForWindows": "Télécharger pour Windows",
-    "downloadForLinuxAppImage": "Télécharger pour Linux (AppImage)",
-    "downloadForLinuxDeb": "Télécharger pour Linux (Deb)"
+    "downloadForLinuxAppImage": "Télécharger pour Linux (AppImage)"
   },
   "meta": {
     "title": "Envoyez des fichiers n'importe où | Sans friction, rapide, privé, illimité et gratuit",

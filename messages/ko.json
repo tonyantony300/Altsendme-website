@@ -8,10 +8,10 @@
   },
   "hero": {
     "title": "파일을 <em>어디로든</em> 전송하세요 - 빠르고, 비공개이며, 간단합니다.",
-    "downloadForMac": "Mac용 다운로드",
+    "downloadForMacAppleSilicon": "Mac용 다운로드 (Apple Silicon)",
+    "downloadForMacIntel": "Mac용 다운로드 (Intel)",
     "downloadForWindows": "Windows용 다운로드",
-    "downloadForLinuxAppImage": "Linux용 다운로드 (AppImage)",
-    "downloadForLinuxDeb": "Linux용 다운로드 (Deb)"
+    "downloadForLinuxAppImage": "Linux용 다운로드 (AppImage)"
   },
   "meta": {
     "title": "파일을 어디로든 전송 | 마찰 없는, 빠른, 비공개, 무제한 및 무료",

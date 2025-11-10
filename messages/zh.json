@@ -8,10 +8,10 @@
   },
   "hero": {
     "title": "将文件发送到<em>任何地方</em> - 快速、私密且简单。",
-    "downloadForMac": "下载 Mac 版",
+    "downloadForMacAppleSilicon": "下载 Mac 版 (Apple Silicon)",
+    "downloadForMacIntel": "下载 Mac 版 (Intel)",
     "downloadForWindows": "下载 Windows 版",
-    "downloadForLinuxAppImage": "下载 Linux 版 (AppImage)",
-    "downloadForLinuxDeb": "下载 Linux 版 (Deb)"
+    "downloadForLinuxAppImage": "下载 Linux 版 (AppImage)"
   },
   "meta": {
     "title": "将文件发送到任何地方 | 无摩擦、快速、私密、无限且免费",

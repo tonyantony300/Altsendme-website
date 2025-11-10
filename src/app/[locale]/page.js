@@ -40,11 +40,18 @@ export default function Home() {
 
   const downloadOptions = [
     {
-      id: "mac",
-      label: t('hero.downloadForMac'),
+      id: "mac-apple-silicon",
+      label: t('hero.downloadForMacAppleSilicon'),
       size: "12.6 MB",
       icon: "/applelogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_universal.dmg",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_arm64.dmg",
+    },
+    {
+      id: "mac-intel",
+      label: t('hero.downloadForMacIntel'),
+      size: "12.6 MB",
+      icon: "/applelogo.svg",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_x64.dmg",
     },
     {
       id: "windows",
@@ -60,17 +67,11 @@ export default function Home() {
       icon: "/linuxlogo.svg",
       url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_amd64.AppImage",
     },
-    {
-      id: "linux-deb",
-      label: t('hero.downloadForLinuxDeb'),
-      size: "10.3 MB",
-      icon: "/linuxlogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_amd64.deb",
-    },
   ];
 
   const primaryDownload = downloadOptions.find((opt) => 
-    opt.id === detectedOS || 
+    (detectedOS === "mac" && opt.id === "mac-apple-silicon") ||
+    (detectedOS === "windows" && opt.id === "windows") ||
     (detectedOS === "linux" && opt.id === "linux-appimage")
   ) || downloadOptions[0];
 

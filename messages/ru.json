@@ -8,10 +8,10 @@
   },
   "hero": {
     "title": "Отправляйте файлы <em>куда угодно</em> - быстро, приватно и просто.",
-    "downloadForMac": "Скачать для Mac",
+    "downloadForMacAppleSilicon": "Скачать для Mac (Apple Silicon)",
+    "downloadForMacIntel": "Скачать для Mac (Intel)",
     "downloadForWindows": "Скачать для Windows",
-    "downloadForLinuxAppImage": "Скачать для Linux (AppImage)",
-    "downloadForLinuxDeb": "Скачать для Linux (Deb)"
+    "downloadForLinuxAppImage": "Скачать для Linux (AppImage)"
   },
   "meta": {
     "title": "Отправляйте файлы куда угодно | Без трения, быстро, приватно, безлимитно и бесплатно",
