@@ -98,7 +98,14 @@ export default function Home() {
               height={14}
               className="flex-shrink-0"
             />
-            <a href="#buy-me-a-coffee" className="font-federo text-base text-foreground font-light hover:underline underline-offset-[3px]">{t('common.buyMeACoffee')}</a>
+            <a 
+              href="https://buymeacoffee.com/tny_antny" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="font-federo text-base text-foreground font-light hover:underline underline-offset-[3px]"
+            >
+              {t('common.buyMeACoffee')}
+            </a>
           </div>
         </nav>
         <div className="md:hidden flex items-center gap-2">
@@ -225,7 +232,12 @@ export default function Home() {
           <p className="font-fanwood-text text-sm text-center md:text-left">{t('common.license')}</p>
           <div className="flex flex-col items-center gap-3 md:flex-row md:gap-6 md:items-center">
             <a href="mailto:tnyantny@protonmail.com" className="font-fanwood-text text-sm text-footer-text hover:underline underline-offset-[3px]">{t('common.hireDeveloper')}</a>
-            <a href="#buy-me-a-coffee" className="font-fanwood-text text-sm text-footer-text block md:hidden flex items-center gap-2">
+            <a 
+              href="https://buymeacoffee.com/tny_antny" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="font-fanwood-text text-sm text-footer-text block md:hidden flex items-center gap-2 hover:underline underline-offset-[3px]"
+            >
               {t('common.buyMeACoffee')}
             </a>
           </div>

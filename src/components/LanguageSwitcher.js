@@ -51,7 +51,6 @@ export default function LanguageSwitcher() {
         className="flex items-center gap-2 px-3 py-1.5 rounded-lg border border-foreground/20 hover:bg-foreground/5 transition-colors font-federo text-sm"
         aria-label="Change language"
       >
-        <span>{currentLanguage.code.toUpperCase()}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -67,6 +66,7 @@ export default function LanguageSwitcher() {
           <path d="m7 15 5 5 5-5"></path>
           <path d="m7 9 5-5 5 5"></path>
         </svg>
+        <span>{currentLanguage.code.toUpperCase()}</span>
       </button>
 
       {isOpen && (
