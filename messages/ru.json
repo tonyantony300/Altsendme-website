@@ -1,0 +1,21 @@
+{
+  "common": {
+    "logo": "AltSendme",
+    "buyMeACoffee": "Купи мне кофе",
+    "freeAndOpenSource": "Бесплатно и с открытым исходным кодом",
+    "hireDeveloper": "Нанять разработчика",
+    "license": "© GNU Affero General Public License v3.0"
+  },
+  "hero": {
+    "title": "Отправляйте файлы <em>куда угодно</em> - быстро, приватно и просто.",
+    "downloadForMac": "Скачать для Mac",
+    "downloadForWindows": "Скачать для Windows",
+    "downloadForLinuxAppImage": "Скачать для Linux (AppImage)",
+    "downloadForLinuxDeb": "Скачать для Linux (Deb)"
+  },
+  "meta": {
+    "title": "Отправляйте файлы куда угодно | Без трения, быстро, приватно, безлимитно и бесплатно",
+    "description": "AltSendme - это беспроблемное кроссплатформенное настольное приложение для передачи файлов по принципу peer-to-peer. Отправляйте файлы и директории через интернет без требований к аккаунту, с сквозным шифрованием, безлимитными передачами и полным контролем приватности. Доступно для Windows, macOS и Linux."
+  }
+}
+

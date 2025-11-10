@@ -1,0 +1,21 @@
+{
+  "common": {
+    "logo": "AltSendme",
+    "buyMeACoffee": "Kauf mir einen Kaffee",
+    "freeAndOpenSource": "Kostenlos & Open Source",
+    "hireDeveloper": "Entwickler einstellen",
+    "license": "© GNU Affero General Public License v3.0"
+  },
+  "hero": {
+    "title": "Dateien <em>überall hin</em> senden - schnell, privat und einfach.",
+    "downloadForMac": "Für Mac herunterladen",
+    "downloadForWindows": "Für Windows herunterladen",
+    "downloadForLinuxAppImage": "Für Linux herunterladen (AppImage)",
+    "downloadForLinuxDeb": "Für Linux herunterladen (Deb)"
+  },
+  "meta": {
+    "title": "Dateien überall hin senden | Reibungslos, schnell, privat, unbegrenzt und kostenlos",
+    "description": "AltSendme ist eine reibungslose Peer-to-Peer-Dateiübertragungs-Desktop-Anwendung für mehrere Plattformen. Senden Sie Dateien und Verzeichnisse über das Internet ohne Kontenanforderungen, mit Ende-zu-Ende-Verschlüsselung, unbegrenzten Übertragungen und vollständiger Privatsphärenkontrolle. Verfügbar für Windows, macOS und Linux."
+  }
+}
+

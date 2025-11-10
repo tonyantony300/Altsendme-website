@@ -2,8 +2,11 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { useTranslations } from 'next-intl';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Home() {
+  const t = useTranslations();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [detectedOS, setDetectedOS] = useState("mac");
 
@@ -38,31 +41,31 @@ export default function Home() {
   const downloadOptions = [
     {
       id: "mac",
-      label: "Download for Mac",
+      label: t('hero.downloadForMac'),
       size: "12.6 MB",
       icon: "/applelogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_universal.dmg", // TODO: Update with actual release URL
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_universal.dmg",
     },
     {
       id: "windows",
-      label: "Download for Windows",
+      label: t('hero.downloadForWindows'),
       size: "15.8 MB",
       icon: "/windows.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_x64-setup.exe", // TODO: Update with actual release URL
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_x64-setup.exe",
     },
     {
       id: "linux-appimage",
-      label: "Download for Linux (AppImage)",
+      label: t('hero.downloadForLinuxAppImage'),
       size: "8.2 MB",
       icon: "/linuxlogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_amd64.AppImage", // TODO: Update with actual release URL
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_amd64.AppImage",
     },
     {
       id: "linux-deb",
-      label: "Download for Linux (Deb)",
+      label: t('hero.downloadForLinuxDeb'),
       size: "10.3 MB",
       icon: "/linuxlogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_amd64.deb", // TODO: Update with actual release URL
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.1.0/AltSendme_0.1.0_amd64.deb",
     },
   ];
 
@@ -70,6 +73,7 @@ export default function Home() {
     opt.id === detectedOS || 
     (detectedOS === "linux" && opt.id === "linux-appimage")
   ) || downloadOptions[0];
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <header className="flex justify-between items-center py-6 px-5 w-full md:px-10 lg:px-[60px]">
@@ -81,23 +85,31 @@ export default function Home() {
             height={36}
             priority
           />
-          <span className="font-federo text-2xl text-foreground font-light lg:text-[28px]">AltSendme</span>
+          <span className="font-federo text-2xl text-foreground font-light lg:text-[28px]">{t('common.logo')}</span>
         </div>
-        <nav className="hidden md:flex items-center gap-2">
-          <Image
-            src="/bmclogo.png"
-            alt="Buy me a coffee"
-            width={14}
-            height={14}
-            className="flex-shrink-0"
-          />
-          <a href="#buy-me-a-coffee" className="font-federo text-base text-foreground font-light hover:underline underline-offset-[3px]">Buy me a coffee</a>
+        <nav className="hidden md:flex items-center gap-4">
+          <LanguageSwitcher />
+          <div className="flex items-center gap-2">
+            <Image
+              src="/bmclogo.png"
+              alt="Buy me a coffee"
+              width={14}
+              height={14}
+              className="flex-shrink-0"
+            />
+            <a href="#buy-me-a-coffee" className="font-federo text-base text-foreground font-light hover:underline underline-offset-[3px]">{t('common.buyMeACoffee')}</a>
+          </div>
         </nav>
+        <div className="md:hidden flex items-center gap-2">
+          <LanguageSwitcher />
+        </div>
       </header>
 
-      <main className="flex-1 flex flex-col items-center py-10 px-5 pb-[120px] w-full max-w-full mb-20 md:py-[15px] md:px-10 md:pb-[140px] md:mb-[100px] lg:py-[15px] lg:px-[60px] lg:pb-[160px] lg:mb-[120px]">
+      <main className="flex-1 flex flex-col items-center py-10 px-5 pb-[120px] w-full max-w-full mb-20  md:px-10 md:pb-[140px] md:mb-[100px]  lg:px-[60px] lg:pb-[160px] lg:mb-[120px]">
         <h1 className="font-swear-display text-[41px] leading-[1.2] text-center text-foreground font-normal mb-6 max-w-[600px] md:text-[48px] md:mb-8 md:max-w-[800px] lg:mb-10 lg:max-w-[1000px]">
-         Send files <em className="italic font-normal">anywhere</em> - <br></br>fast, private, and simple.
+          {t.rich('hero.title', {
+            em: (chunks) => <em className="italic font-normal">{chunks}</em>
+          })}
         </h1>
         
         <div className="flex items-center justify-center gap-2 font-fanwood-text text-lg text-foreground  mb-8">
@@ -114,7 +126,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-foreground hover:underline underline-offset-[3px] transition-opacity hover:opacity-70"
           >
-            Free & Open source
+            {t('common.freeAndOpenSource')}
           </a>
         </div>
 
@@ -209,11 +221,11 @@ export default function Home() {
 
       <footer className="bg-footer-bg text-footer-text w-full py-6 px-5 fixed bottom-0 left-0 right-0 z-10 md:py-8 md:px-10 lg:px-[60px]">
         <div className="flex flex-col items-center gap-4 max-w-[1200px] mx-auto md:flex-row md:justify-between md:items-center md:gap-0">
-          <p className="font-fanwood-text text-sm text-center md:text-left">© GNU Affero General Public License v3.0</p>
+          <p className="font-fanwood-text text-sm text-center md:text-left">{t('common.license')}</p>
           <div className="flex flex-col items-center gap-3 md:flex-row md:gap-6 md:items-center">
-            <a href="mailto:placeholder@example.com" className="font-fanwood-text text-sm text-footer-text">Hire developer</a>
+            <a href="mailto:placeholder@example.com" className="font-fanwood-text text-sm text-footer-text">{t('common.hireDeveloper')}</a>
             <a href="#buy-me-a-coffee" className="font-fanwood-text text-sm text-footer-text block md:hidden flex items-center gap-2">
-              Buy me a coffee
+              {t('common.buyMeACoffee')}
             </a>
           </div>
         </div>
@@ -221,3 +233,4 @@ export default function Home() {
     </div>
   );
 }
+

@@ -1,4 +1,4 @@
-export default function StructuredData() {
+export default function StructuredData({ locale }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -60,7 +60,7 @@ export default function StructuredData() {
     },
     "screenshot": "https://altsendme.com/hero.png",
     "keywords": "file transfer, peer-to-peer, P2P, encrypted, secure, private, cross-platform, free, unlimited, open source, iroh, sendme",
-    "inLanguage": ["en", "fr", "th", "de", "zh", "ja", "ru"],
+    "inLanguage": ["en", "fr", "th", "de", "zh", "ja", "ru", "ko"],
     "browserRequirements": "Requires desktop application installation",
     "softwareRequirements": "Windows 10+, macOS 10.13+, or Linux",
     "permissions": "File system access for sending and receiving files"
