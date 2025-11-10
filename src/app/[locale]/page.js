@@ -80,7 +80,7 @@ export default function Home() {
       <header className="flex justify-between items-center py-6 px-5 w-full md:px-10 lg:px-[60px]">
         <div className="flex items-center gap-3">
           <Image
-            src="/AltSendmelogo.png"
+            src="/Altsendmelogo.png"
             alt="Altsendme logo"
             width={36}
             height={36}
