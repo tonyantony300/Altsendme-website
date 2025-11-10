@@ -1,24 +1,30 @@
 "use client";
 
 import Image from "next/image";
-import { GithubLogo } from "@phosphor-icons/react";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
-      <header className="flex justify-between items-center py-6 px-5 w-full md:px-10 lg:px-[60px] lg:py-10">
+      <header className="flex justify-between items-center py-6 px-5 w-full md:px-10 lg:px-[60px]">
         <div className="flex items-center gap-3">
           <Image
-            src="/logo.svg"
+            src="/AltSendmelogo.png"
             alt="Altsendme logo"
-            width={40}
-            height={40}
+            width={36}
+            height={36}
             priority
           />
           <span className="font-federo text-2xl text-foreground font-light lg:text-[28px]">AltSendme</span>
         </div>
-        <nav className="hidden md:flex">
-          <a href="#buy-me-a-coffee" className="font-federo text-base text-foreground font-light">Buy me a coffee</a>
+        <nav className="hidden md:flex items-center gap-2">
+          <Image
+            src="/bmclogo.png"
+            alt="Buy me a coffee"
+            width={14}
+            height={14}
+            className="flex-shrink-0"
+          />
+          <a href="#buy-me-a-coffee" className="font-federo text-base text-foreground font-light hover:underline underline-offset-[3px]">Buy me a coffee</a>
         </nav>
       </header>
 
@@ -27,13 +33,19 @@ export default function Home() {
          Send files <em className="italic font-normal">anywhere</em> - <br></br>fast, private, and simple.
         </h1>
         
-        <div className="flex items-center justify-center gap-2 font-fanwood-text text-lg text-foreground">
-          <GithubLogo className="w-[18px] h-[18px] flex-shrink-0" weight="regular" />
+        <div className="flex items-center justify-center gap-2 font-fanwood-text text-lg text-foreground -ml-8">
+          <Image
+            src="/github.png"
+            alt="GitHub"
+            width={18}
+            height={18}
+            className="flex-shrink-0"
+          />
           <a 
             href="https://github.com/tonyantony300/alt-sendme" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-foreground underline underline-offset-[3px] transition-opacity hover:opacity-70"
+            className="text-foreground hover:underline underline-offset-[3px] transition-opacity hover:opacity-70"
           >
             Free & Open source
           </a>
@@ -56,7 +68,9 @@ export default function Home() {
           <p className="font-fanwood-text text-sm text-center md:text-left">© GNU Affero General Public License v3.0</p>
           <div className="flex flex-col items-center gap-3 md:flex-row md:gap-6 md:items-center">
             <a href="mailto:placeholder@example.com" className="font-fanwood-text text-sm text-footer-text">Hire developer</a>
-            <a href="#buy-me-a-coffee" className="font-fanwood-text text-sm text-footer-text block md:hidden">Buy me a coffee</a>
+            <a href="#buy-me-a-coffee" className="font-fanwood-text text-sm text-footer-text block md:hidden flex items-center gap-2">
+              Buy me a coffee
+            </a>
           </div>
         </div>
       </footer>
