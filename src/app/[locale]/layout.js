@@ -43,6 +43,7 @@ export async function generateMetadata({ params }) {
   };
 
   return {
+    metadataBase: new URL('https://altsendme.com'),
     title: t('meta.title'),
     description: t('meta.description'),
     keywords: [

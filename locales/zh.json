@@ -1,0 +1,126 @@
+{
+  "common": {
+    "logo": "AltSendme",
+    "buyMeACoffee": "请我喝杯咖啡",
+    "freeAndOpenSource": "免费和开源",
+    "hireDeveloper": "雇佣开发者",
+    "license": "© GNU Affero General Public License v3.0"
+  },
+  "hero": {
+    "title": "即时发送文件。无需账户，无限制，无麻烦。",
+    "description": "从您的计算机直接、加密的文件传输到任何人、任何地方 — 中间没有云存储。",
+    "airdropQuote": "把它想象成面向所有人的 AirDrop。",
+    "downloadForMacAppleSilicon": "下载 Mac 版 (Apple Silicon)",
+    "downloadForMacIntel": "下载 Mac 版 (Intel)",
+    "downloadForWindows": "下载 Windows 版",
+    "downloadForLinuxAppImage": "下载 Linux 版 (AppImage)"
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "subtitle": "简单。安全。即时。",
+    "step1": {
+      "title": "拖放您的文件或文件夹。",
+      "description": "AltSendme 创建一个一次性共享代码（称为\"票据\"）。"
+    },
+    "step2": {
+      "title": "分享票据。",
+      "description": "复制它并发送给您的朋友 — 通过聊天、电子邮件或短信。"
+    },
+    "step3": {
+      "title": "他们直接接收。",
+      "description": "您的朋友在他们的应用中粘贴票据，传输即开始。"
+    }
+  },
+  "features": {
+    "title": "为什么人们喜欢 AltSendme",
+    "private": {
+      "title": "私密和加密",
+      "description": "文件直接发送给您的朋友：永远不会在线存储。"
+    },
+    "fast": {
+      "title": "快速传输",
+      "description": "AltSendme 可以饱和高达 4Gbps 的连接。"
+    },
+    "unlimited": {
+      "title": "无限制文件大小",
+      "description": "发送千兆字节的数据：无限制，无订阅。"
+    },
+    "noAccounts": {
+      "title": "无需账户",
+      "description": "打开、拖放、分享：就这样。"
+    },
+    "crossPlatform": {
+      "title": "跨平台",
+      "description": "适用于 Windows、macOS 和 Linux。"
+    },
+    "openSource": {
+      "title": "开源和透明",
+      "description": "完全开源的代码：检查、验证和信任。没有隐藏代码，没有意外。"
+    }
+  },
+  "comparison": {
+    "title": "为什么 AltSendme 更好",
+    "altSendme": "AltSendme",
+    "cloudSharing": "云共享 (Drive, WeTransfer 等)",
+    "accountRequired": "需要账户",
+    "fileSizeLimit": "文件大小限制",
+    "privacy": "隐私",
+    "speed": "速度",
+    "cost": "成本",
+    "no": "否",
+    "yes": "是",
+    "unlimited": "无限制",
+    "usuallyLimited": "通常有限制",
+    "endToEndEncrypted": "加密直接传输",
+    "storedOnServer": "存储在服务器上",
+    "directConnection": "高达 4Gbps",
+    "uploadDownload": "上传 + 下载",
+    "free": "免费",
+    "oftenPaid": "通常付费"
+  },
+  "testimonial": {
+    "title": "评价",
+    "rating": "4.5 / 5 — Softpedia",
+    "quote": "一个非常直接的文件传输应用。非常适合在网络上快速、简单地传输文件。"
+  },
+  "download": {
+    "title": "立即试用 AltSendme",
+    "subtitle": "免费、开源，面向所有人开放"
+  },
+  "taglineFooter": {
+    "quote": "它就像一个私密的一次性 AirDrop 链接 — 适用于任何人，任何地方。"
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": {
+      "faq1": {
+        "question": "AltSendme 是什么？它是如何工作的？",
+        "answer": "AltSendme 是一款极简的跨平台桌面应用程序，允许用户在世界任何地方以点对点方式发送文件和目录。它围绕<link>Iroh 网络堆栈</link>构建，使用开源公共连接中继来执行 NAT 遍历和打孔等高级技术以到达目的地。"
+      },
+      "faq2": {
+        "question": "AltSendme 是免费使用的吗？",
+        "answer": "是的，AltSendme 目前没有基础设施成本。如果您从这项工作中受益，请考虑通过 Buy Me a Coffee 或 GitHub Sponsors 支持开发者。"
+      },
+      "faq3": {
+        "question": "我可以使用 AltSendme 传输哪些文件类型？",
+        "answer": "您可以传输任何内容—图像、视频、文档等。在两端执行完整性检查，因此您的文件在发送和接收期间都会自动验证正确性。"
+      },
+      "faq4": {
+        "question": "使用 AltSendme 时我的数据有多安全？",
+        "answer": "AltSendme 使用基于 TLS 1.3 和 QUIC 等现代标准的强端到端加密，确保只有您和收件人可以访问您的数据。它提供前向和后向保密性，因此即使票据被暴露，过去和未来的传输仍然安全。"
+      },
+      "faq5": {
+        "question": "它与 FilePizza、Wormhole 和 PairDrop 相比如何？",
+        "answer": "AltSendme 提供比 FilePizza、Wormhole 或 PairDrop 等仅限 Web 的工具更好的文件共享体验。通过在 UDP 上利用 QUIC，它能够实现更快、更有弹性的点对点传输，具有内置加密、身份验证和流多路复用。其桌面应用程序允许发送大文件和完整文件夹，支持暂停/恢复，浏览器限制更少。此外，完整性和加密操作针对速度进行了优化，使 AltSendme 成为经过验证的传输的可靠选择。"
+      },
+      "faq6": {
+        "question": "使用 AltSendme 需要互联网连接吗？",
+        "answer": "是的，需要网络连接，因为设备必须相互连接。如果两个设备在同一本地网络上（例如，同一 Wi-Fi），则不需要完整的互联网访问—只需 LAN 连接。但是，如果设备位于 NAT 或防火墙后面的不同网络上，则需要互联网连接来进行打孔或中继回退。"
+      }
+    }
+  },
+  "meta": {
+    "title": "将文件发送到任何地方 | 无摩擦、快速、私密、无限且免费",
+    "description": "AltSendme 是一款无摩擦的点对点文件传输跨平台桌面应用程序。通过互联网发送文件和目录，无需账户要求，端到端加密，无限传输，完全隐私控制。适用于 Windows、macOS 和 Linux。"
+  }
+}
