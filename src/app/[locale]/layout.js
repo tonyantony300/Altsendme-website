@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Geist, Geist_Mono, Federo } from "next/font/google";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/next';
 import { routing } from '@/i18n/routing';
 import StructuredData from './StructuredData';
 import '../globals.css';

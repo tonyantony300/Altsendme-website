@@ -138,7 +138,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="w-full max-w-[460px] flex flex-col items-center">
+        <div className="w-full max-w-[460px] lg:max-w-[660px] flex flex-col items-center">
           {/* Download Button */}
           <div className="relative w-full rounded-[20px] lg:w-auto download-container mb-8">
             {/* Button Group */}
@@ -227,7 +227,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="bg-footer-bg text-footer-text w-full py-6 px-5 fixed bottom-0 left-0 right-0 z-10 md:py-8 md:px-10 lg:px-[60px]">
+      <footer className="bg-footer-bg text-footer-text w-full py-6 px-5 md:fixed md:bottom-0 md:left-0 md:right-0 md:z-10 md:py-8 md:px-10 lg:px-[60px]">
         <div className="flex flex-col items-center gap-4 max-w-[1200px] mx-auto md:flex-row md:justify-between md:items-center md:gap-0">
           <p className="font-fanwood-text text-sm text-center md:text-left">{t('common.license')}</p>
           <div className="flex flex-col items-center gap-3 md:flex-row md:gap-6 md:items-center">
