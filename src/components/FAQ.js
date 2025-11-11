@@ -1,55 +1,55 @@
 "use client";
 
 import { useState } from 'react';
-
-const faqs = [
-  {
-    id: 'faq-1',
-    question: 'What is AltSendme and how does it work?',
-    answer: (
-      <>
-        AltSendme is a minimal, cross-platform desktop application that lets users send files and directories peer-to-peer anywhere in the world. It is built around the{' '}
-        <a 
-          href="https://www.iroh.computer/docs/faq" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="underline hover:opacity-80 transition-opacity"
-        >
-          Iroh networking stack
-        </a>
-        {' '}and uses open-source public connection relays to perform advanced techniques like NAT traversal and hole punching to reach the destination.
-      </>
-    )
-  },
-  {
-    id: 'faq-2',
-    question: 'Is AltSendme free to use?',
-    answer: 'Yes, AltSendme currently has no infrastructure costs. If you benefit from this work, consider supporting the developer through Buy Me a Coffee or GitHub Sponsors.'
-  },
-  {
-    id: 'faq-3',
-    question: 'What file types can I transfer with AltSendme?',
-    answer: 'You can transfer anything—images, videos, documents, and more. Integrity checks are performed on both ends, so your files are automatically verified for correctness during both sending and receiving.'
-  },
-  {
-    id: 'faq-4',
-    question: 'How secure is my data when using AltSendme?',
-    answer: 'AltSendme uses strong end-to-end encryption based on modern standards like TLS 1.3 and QUIC, ensuring that only you and the recipient can access your data. It provides forward and backward secrecy, so even if tickets are exposed, past and future transfers remain secure.'
-  },
-  {
-    id: 'faq-5',
-    question: 'How does it compare to FilePizza, Wormhole, and PairDrop?',
-    answer: 'AltSendme offers a better file-sharing experience than web-only tools like FilePizza, Wormhole, or PairDrop. By leveraging QUIC over UDP, it enables faster, resilient peer-to-peer transfers with built-in encryption, authentication, and stream multiplexing. Its desktop app allows sending large files and full folders with pause/resume support and fewer browser limitations. Additionally, integrity and cryptographic operations are optimized for speed, making AltSendme a reliable choice for verified transfers.'
-  },
-  {
-    id: 'faq-6',
-    question: 'Do I need an internet connection to use AltSendme?',
-    answer: 'Yes, a network connection is required because the devices must connect to each other. If both devices are on the same local network (e.g., the same Wi-Fi), full internet access is not necessary—just LAN connectivity. However, if devices are on different networks behind NATs or firewalls, an internet connection is required for hole punching or relay fallback.'
-  },
-];
+import { useTranslations } from 'next-intl';
 
 export default function FAQ() {
+  const t = useTranslations();
   const [openItems, setOpenItems] = useState(new Set());
+
+  const faqs = [
+    {
+      id: 'faq-1',
+      question: t('faq.items.faq1.question'),
+      answer: t.rich('faq.items.faq1.answer', {
+        link: (chunks) => (
+          <a 
+            href="https://www.iroh.computer/docs/faq" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="underline hover:opacity-80 transition-opacity"
+          >
+            {chunks}
+          </a>
+        )
+      })
+    },
+    {
+      id: 'faq-2',
+      question: t('faq.items.faq2.question'),
+      answer: t('faq.items.faq2.answer')
+    },
+    {
+      id: 'faq-3',
+      question: t('faq.items.faq3.question'),
+      answer: t('faq.items.faq3.answer')
+    },
+    {
+      id: 'faq-4',
+      question: t('faq.items.faq4.question'),
+      answer: t('faq.items.faq4.answer')
+    },
+    {
+      id: 'faq-5',
+      question: t('faq.items.faq5.question'),
+      answer: t('faq.items.faq5.answer')
+    },
+    {
+      id: 'faq-6',
+      question: t('faq.items.faq6.question'),
+      answer: t('faq.items.faq6.answer')
+    },
+  ];
 
   const toggleItem = (id) => {
     const newOpenItems = new Set(openItems);
@@ -64,7 +64,7 @@ export default function FAQ() {
   return (
     <section className="flex flex-col items-center pt-10 pb-10 px-5 w-full md:px-10 md:pb-20 lg:px-[60px] lg:pb-24">
       <h1 className="font-swear-display text-[32px] leading-[1.2] text-center text-foreground font-normal mb-8 max-w-[600px] md:text-[40px] md:mb-10 lg:mb-12">
-        Frequently Asked Questions
+        {t('faq.title')}
       </h1>
 
       <div className="w-full max-w-[1000px] flex flex-col gap-4">

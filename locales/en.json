@@ -91,6 +91,35 @@
   "taglineFooter": {
     "quote": "It's like a private, one-time AirDrop link — for anyone, anywhere."
   },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": {
+      "faq1": {
+        "question": "What is AltSendme and how does it work?",
+        "answer": "AltSendme is a minimal, cross-platform desktop application that lets users send files and directories peer-to-peer anywhere in the world. It is built around the <link>Iroh networking stack</link> and uses open-source public connection relays to perform advanced techniques like NAT traversal and hole punching to reach the destination."
+      },
+      "faq2": {
+        "question": "Is AltSendme free to use?",
+        "answer": "Yes, AltSendme currently has no infrastructure costs. If you benefit from this work, consider supporting the developer through Buy Me a Coffee or GitHub Sponsors."
+      },
+      "faq3": {
+        "question": "What file types can I transfer with AltSendme?",
+        "answer": "You can transfer anything—images, videos, documents, and more. Integrity checks are performed on both ends, so your files are automatically verified for correctness during both sending and receiving."
+      },
+      "faq4": {
+        "question": "How secure is my data when using AltSendme?",
+        "answer": "AltSendme uses strong end-to-end encryption based on modern standards like TLS 1.3 and QUIC, ensuring that only you and the recipient can access your data. It provides forward and backward secrecy, so even if tickets are exposed, past and future transfers remain secure."
+      },
+      "faq5": {
+        "question": "How does it compare to FilePizza, Wormhole, and PairDrop?",
+        "answer": "AltSendme offers a better file-sharing experience than web-only tools like FilePizza, Wormhole, or PairDrop. By leveraging QUIC over UDP, it enables faster, resilient peer-to-peer transfers with built-in encryption, authentication, and stream multiplexing. Its desktop app allows sending large files and full folders with pause/resume support and fewer browser limitations. Additionally, integrity and cryptographic operations are optimized for speed, making AltSendme a reliable choice for verified transfers."
+      },
+      "faq6": {
+        "question": "Do I need an internet connection to use AltSendme?",
+        "answer": "Yes, a network connection is required because the devices must connect to each other. If both devices are on the same local network (e.g., the same Wi-Fi), full internet access is not necessary—just LAN connectivity. However, if devices are on different networks behind NATs or firewalls, an internet connection is required for hole punching or relay fallback."
+      }
+    }
+  },
   "meta": {
     "title": "Send files anywhere | Frictionless, Fast, Private, Unlimited and Free",
     "description": "AltSendme is a frictionless peer-to-peer file transfer cross-platform desktop application. Send files and directories over the internet with no account requirements, end-to-end encryption, unlimited transfers, and full privacy control. Available for Windows, macOS, and Linux."
