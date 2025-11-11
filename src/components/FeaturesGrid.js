@@ -47,11 +47,11 @@ export default function FeaturesGrid() {
 
       <div className="w-full max-w-[1000px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {features.map((feature) => (
-          <div key={feature.key} className="flex flex-col gap-2 border-2 border-foreground rounded-[20px] p-6 bg-background">
+          <div key={feature.key} className="flex flex-col items-center gap-2 border-2 border-foreground rounded-[20px] p-6 bg-background">
             <h3 className="font-federo text-lg text-foreground font-medium md:text-xl">
               {feature.title}
             </h3>
-            <p className="font-fanwood-text text-base text-foreground md:text-lg">
+            <p className="font-fanwood-text text-base text-center text-foreground md:text-lg">
               {feature.description}
             </p>
           </div>
