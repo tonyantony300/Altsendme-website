@@ -7,15 +7,91 @@
     "license": "© GNU Affero General Public License v3.0"
   },
   "hero": {
-    "title": "ファイルを<em>どこでも</em>送信 - 高速、プライベート、シンプル。",
+    "title": "ファイルを即座に送信。アカウント不要、制限なし、手間なし。",
+    "description": "コンピューターから誰にでも、どこにでも直接暗号化されたファイル転送 — クラウドストレージを介さない。",
+    "airdropQuote": "誰でも使えるAirDropのようなものと考えてください。",
     "downloadForMacAppleSilicon": "Mac用をダウンロード (Apple Silicon)",
     "downloadForMacIntel": "Mac用をダウンロード (Intel)",
     "downloadForWindows": "Windows用をダウンロード",
     "downloadForLinuxAppImage": "Linux用をダウンロード (AppImage)"
+  },
+  "howItWorks": {
+    "title": "使い方",
+    "subtitle": "シンプル。安全。即座に。",
+    "step1": {
+      "title": "ファイルまたはフォルダをドロップ。",
+      "description": "AltSendmeは一度だけ使用できる共有コード（「チケット」と呼ばれる）を作成します。"
+    },
+    "step2": {
+      "title": "チケットを共有。",
+      "description": "コピーして友達に送信 — チャット、メール、またはテキストで。"
+    },
+    "step3": {
+      "title": "直接受信。",
+      "description": "友達がアプリにチケットを貼り付けると、転送が開始されます。"
+    }
+  },
+  "features": {
+    "title": "AltSendmeが愛される理由",
+    "private": {
+      "title": "プライベート & 暗号化",
+      "description": "ファイルは友達に直接送信：オンラインに保存されることはありません。"
+    },
+    "fast": {
+      "title": "高速転送",
+      "description": "AltSendmeは最大4Gbpsの接続を飽和させることができます。"
+    },
+    "unlimited": {
+      "title": "無制限のファイルサイズ",
+      "description": "ギガバイトのデータを送信：制限なし、サブスクリプションなし。"
+    },
+    "noAccounts": {
+      "title": "アカウント不要",
+      "description": "開く、ドロップ、共有：それだけです。"
+    },
+    "crossPlatform": {
+      "title": "クロスプラットフォーム",
+      "description": "Windows、macOS、Linuxで動作します。"
+    },
+    "openSource": {
+      "title": "オープンソース & 透明性",
+      "description": "完全にオープンソースのコード：検査、検証、信頼。隠されたコードなし、驚きなし。"
+    }
+  },
+  "comparison": {
+    "title": "AltSendmeが優れている理由",
+    "altSendme": "AltSendme",
+    "cloudSharing": "クラウド共有 (Drive、WeTransferなど)",
+    "accountRequired": "アカウント必要",
+    "fileSizeLimit": "ファイルサイズ制限",
+    "privacy": "プライバシー",
+    "speed": "速度",
+    "cost": "コスト",
+    "no": "いいえ",
+    "yes": "はい",
+    "unlimited": "無制限",
+    "usuallyLimited": "通常制限あり",
+    "endToEndEncrypted": "暗号化された直接転送",
+    "storedOnServer": "サーバーに保存",
+    "directConnection": "最大4Gbps",
+    "uploadDownload": "アップロード + ダウンロード",
+    "free": "無料",
+    "oftenPaid": "しばしば有料"
+  },
+  "testimonial": {
+    "title": "レビュー",
+    "rating": "4.5 / 5 — Softpedia",
+    "quote": "非常にシンプルなファイル転送アプリ。Web上での迅速で簡単なファイル転送に最適です。"
+  },
+  "download": {
+    "title": "今すぐAltSendmeを試す",
+    "subtitle": "無料、オープンソース、誰でも利用可能"
+  },
+  "taglineFooter": {
+    "quote": "それは、誰でも、どこでも使えるプライベートな一度限りのAirDropリンクのようなものです。"
   },
   "meta": {
     "title": "ファイルをどこでも送信 | 摩擦のない、高速、プライベート、無制限、無料",
     "description": "AltSendmeは、摩擦のないピアツーピアファイル転送のクロスプラットフォームデスクトップアプリケーションです。アカウント不要、エンドツーエンド暗号化、無制限転送、完全なプライバシー制御で、インターネット経由でファイルとディレクトリを送信できます。Windows、macOS、Linuxで利用可能です。"
   }
 }
-

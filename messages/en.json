@@ -28,10 +28,8 @@
     },
     "step3": {
       "title": "They receive it directly.",
-      "description": "Your friend pastes the ticket in their app, and the transfer begins.",
-      "note": "No uploads, no waiting, no accounts — just a private connection between you two."
-    },
-    "privacyNote": "Transfers are direct and encrypted — your data never touches a server."
+      "description": "Your friend pastes the ticket in their app, and the transfer begins."
+    }
   },
   "features": {
     "title": "Why People Love AltSendme",
@@ -55,10 +53,6 @@
       "title": "Cross-Platform",
       "description": "Works on Windows, macOS, and Linux."
     },
-    "resumable": {
-      "title": "Resumable Downloads",
-      "description": "Transfers pick up automatically if they're interrupted."
-    },
     "openSource": {
       "title": "Open Source & Transparent",
       "description": "Fully open source code: inspect, verify, and trust. No hidden code, no surprises."
@@ -79,7 +73,7 @@
     "usuallyLimited": "Usually Limited",
     "endToEndEncrypted": "Encrypted Direct Transfer",
     "storedOnServer": "Stored on Server",
-    "directConnection": "Direct Transfer upto 4Gbps",
+    "directConnection": "Upto 4Gbps",
     "uploadDownload": "Upload + Download",
     "free": "Free",
     "oftenPaid": "Often Paid"
@@ -91,13 +85,7 @@
   },
   "download": {
     "title": "Try AltSendme now",
-    "subtitle": "Free, Open Source, and Available for Everyone",
-    "windows": "Windows Installer",
-    "macos": "macOS",
-    "linux": "Linux",
-    "note": "Open source and free forever.",
-    "tagline1": "Your files. Your privacy. Your speed.",
-    "tagline2": "No accounts. No tracking. No nonsense."
+    "subtitle": "Free, Open Source, and Available for Everyone"
   },
 
   "taglineFooter": {

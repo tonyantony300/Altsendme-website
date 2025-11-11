@@ -7,15 +7,91 @@
     "license": "© GNU Affero General Public License v3.0"
   },
   "hero": {
-    "title": "Dateien <em>überall hin</em> senden - schnell, privat und einfach.",
+    "title": "Dateien sofort senden. Keine Konten, keine Limits, kein Aufwand.",
+    "description": "Direkte, verschlüsselte Dateiübertragungen von Ihrem Computer zu jedem, überall — keine Cloud-Speicherung dazwischen.",
+    "airdropQuote": "Stellen Sie es sich wie AirDrop für alle vor.",
     "downloadForMacAppleSilicon": "Für Mac herunterladen (Apple Silicon)",
     "downloadForMacIntel": "Für Mac herunterladen (Intel)",
     "downloadForWindows": "Für Windows herunterladen",
     "downloadForLinuxAppImage": "Für Linux herunterladen (AppImage)"
+  },
+  "howItWorks": {
+    "title": "Wie es funktioniert",
+    "subtitle": "Einfach. Sicher. Sofort.",
+    "step1": {
+      "title": "Datei oder Ordner ablegen.",
+      "description": "AltSendme erstellt einen einmaligen Freigabecode (genannt \"Ticket\")."
+    },
+    "step2": {
+      "title": "Ticket teilen.",
+      "description": "Kopieren Sie es und senden Sie es an Ihren Freund — per Chat, E-Mail oder SMS."
+    },
+    "step3": {
+      "title": "Sie erhalten es direkt.",
+      "description": "Ihr Freund fügt das Ticket in seiner App ein, und die Übertragung beginnt."
+    }
+  },
+  "features": {
+    "title": "Warum Menschen AltSendme lieben",
+    "private": {
+      "title": "Privat & Verschlüsselt",
+      "description": "Dateien gehen direkt an Ihren Freund: werden nie online gespeichert."
+    },
+    "fast": {
+      "title": "Schnelle Übertragungen",
+      "description": "AltSendme kann Verbindungen bis zu 4Gbps auslasten."
+    },
+    "unlimited": {
+      "title": "Unbegrenzte Dateigröße",
+      "description": "Senden Sie Gigabytes an Daten: keine Limits, keine Abonnements."
+    },
+    "noAccounts": {
+      "title": "Keine Konten erforderlich",
+      "description": "Öffnen, ablegen, teilen: das war's."
+    },
+    "crossPlatform": {
+      "title": "Plattformübergreifend",
+      "description": "Funktioniert auf Windows, macOS und Linux."
+    },
+    "openSource": {
+      "title": "Open Source & Transparent",
+      "description": "Vollständig quelloffener Code: prüfen, verifizieren und vertrauen. Kein versteckter Code, keine Überraschungen."
+    }
+  },
+  "comparison": {
+    "title": "Warum AltSendme besser ist",
+    "altSendme": "AltSendme",
+    "cloudSharing": "Cloud-Sharing (Drive, WeTransfer, etc.)",
+    "accountRequired": "Konto erforderlich",
+    "fileSizeLimit": "Dateigrößenlimit",
+    "privacy": "Datenschutz",
+    "speed": "Geschwindigkeit",
+    "cost": "Kosten",
+    "no": "Nein",
+    "yes": "Ja",
+    "unlimited": "Unbegrenzt",
+    "usuallyLimited": "Normalerweise begrenzt",
+    "endToEndEncrypted": "Verschlüsselte Direktübertragung",
+    "storedOnServer": "Auf Server gespeichert",
+    "directConnection": "Bis zu 4Gbps",
+    "uploadDownload": "Upload + Download",
+    "free": "Kostenlos",
+    "oftenPaid": "Oft kostenpflichtig"
+  },
+  "testimonial": {
+    "title": "Bewertung",
+    "rating": "4.5 / 5 — Softpedia",
+    "quote": "Eine sehr unkomplizierte Dateiübertragungs-App. Großartig für schnelle, einfache Dateiübertragungen im Web."
+  },
+  "download": {
+    "title": "AltSendme jetzt ausprobieren",
+    "subtitle": "Kostenlos, Open Source und für alle verfügbar"
+  },
+  "taglineFooter": {
+    "quote": "Es ist wie ein privater, einmaliger AirDrop-Link — für jeden, überall."
   },
   "meta": {
     "title": "Dateien überall hin senden | Reibungslos, schnell, privat, unbegrenzt und kostenlos",
     "description": "AltSendme ist eine reibungslose Peer-to-Peer-Dateiübertragungs-Desktop-Anwendung für mehrere Plattformen. Senden Sie Dateien und Verzeichnisse über das Internet ohne Kontenanforderungen, mit Ende-zu-Ende-Verschlüsselung, unbegrenzten Übertragungen und vollständiger Privatsphärenkontrolle. Verfügbar für Windows, macOS und Linux."
   }
 }
-

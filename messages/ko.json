@@ -7,15 +7,91 @@
     "license": "© GNU Affero General Public License v3.0"
   },
   "hero": {
-    "title": "파일을 <em>어디로든</em> 전송하세요 - 빠르고, 비공개이며, 간단합니다.",
+    "title": "파일을 즉시 전송하세요. 계정 불필요, 제한 없음, 번거로움 없음.",
+    "description": "컴퓨터에서 누구에게나, 어디로든 직접 암호화된 파일 전송 — 클라우드 저장소 없이.",
+    "airdropQuote": "모두를 위한 AirDrop이라고 생각하세요.",
     "downloadForMacAppleSilicon": "Mac용 다운로드 (Apple Silicon)",
     "downloadForMacIntel": "Mac용 다운로드 (Intel)",
     "downloadForWindows": "Windows용 다운로드",
     "downloadForLinuxAppImage": "Linux용 다운로드 (AppImage)"
+  },
+  "howItWorks": {
+    "title": "작동 방식",
+    "subtitle": "간단합니다. 안전합니다. 즉시입니다.",
+    "step1": {
+      "title": "파일 또는 폴더를 드롭하세요.",
+      "description": "AltSendme는 일회용 공유 코드(\"티켓\"이라고 함)를 생성합니다."
+    },
+    "step2": {
+      "title": "티켓을 공유하세요.",
+      "description": "복사하여 친구에게 보내세요 — 채팅, 이메일 또는 문자로."
+    },
+    "step3": {
+      "title": "직접 수신합니다.",
+      "description": "친구가 앱에 티켓을 붙여넣으면 전송이 시작됩니다."
+    }
+  },
+  "features": {
+    "title": "사람들이 AltSendme를 좋아하는 이유",
+    "private": {
+      "title": "비공개 및 암호화",
+      "description": "파일은 친구에게 직접 전송됩니다: 온라인에 저장되지 않습니다."
+    },
+    "fast": {
+      "title": "빠른 전송",
+      "description": "AltSendme는 최대 4Gbps 연결을 포화시킬 수 있습니다."
+    },
+    "unlimited": {
+      "title": "무제한 파일 크기",
+      "description": "기가바이트의 데이터를 전송하세요: 제한 없음, 구독 없음."
+    },
+    "noAccounts": {
+      "title": "계정 불필요",
+      "description": "열기, 드롭, 공유: 그게 전부입니다."
+    },
+    "crossPlatform": {
+      "title": "크로스 플랫폼",
+      "description": "Windows, macOS 및 Linux에서 작동합니다."
+    },
+    "openSource": {
+      "title": "오픈 소스 및 투명",
+      "description": "완전히 오픈 소스 코드: 검사, 검증 및 신뢰. 숨겨진 코드 없음, 놀라움 없음."
+    }
+  },
+  "comparison": {
+    "title": "AltSendme가 더 나은 이유",
+    "altSendme": "AltSendme",
+    "cloudSharing": "클라우드 공유 (Drive, WeTransfer 등)",
+    "accountRequired": "계정 필요",
+    "fileSizeLimit": "파일 크기 제한",
+    "privacy": "개인정보 보호",
+    "speed": "속도",
+    "cost": "비용",
+    "no": "아니오",
+    "yes": "예",
+    "unlimited": "무제한",
+    "usuallyLimited": "일반적으로 제한됨",
+    "endToEndEncrypted": "암호화된 직접 전송",
+    "storedOnServer": "서버에 저장됨",
+    "directConnection": "최대 4Gbps",
+    "uploadDownload": "업로드 + 다운로드",
+    "free": "무료",
+    "oftenPaid": "종종 유료"
+  },
+  "testimonial": {
+    "title": "리뷰",
+    "rating": "4.5 / 5 — Softpedia",
+    "quote": "매우 간단한 파일 전송 앱입니다. 웹에서 빠르고 간단한 파일 전송에 완벽합니다."
+  },
+  "download": {
+    "title": "지금 AltSendme를 사용해보세요",
+    "subtitle": "무료, 오픈 소스, 모든 사람에게 제공"
+  },
+  "taglineFooter": {
+    "quote": "누구나, 어디서나 사용할 수 있는 비공개 일회용 AirDrop 링크와 같습니다."
   },
   "meta": {
     "title": "파일을 어디로든 전송 | 마찰 없는, 빠른, 비공개, 무제한 및 무료",
     "description": "AltSendme는 마찰 없는 피어투피어 파일 전송 크로스 플랫폼 데스크톱 애플리케이션입니다. 계정 요구 사항 없이, 엔드투엔드 암호화, 무제한 전송 및 완전한 개인정보 보호 제어로 인터넷을 통해 파일과 디렉토리를 전송하세요. Windows, macOS 및 Linux에서 사용 가능합니다."
   }
 }
-

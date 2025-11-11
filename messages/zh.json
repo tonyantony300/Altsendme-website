@@ -7,15 +7,91 @@
     "license": "© GNU Affero General Public License v3.0"
   },
   "hero": {
-    "title": "将文件发送到<em>任何地方</em> - 快速、私密且简单。",
+    "title": "即时发送文件。无需账户，无限制，无麻烦。",
+    "description": "从您的计算机直接、加密的文件传输到任何人、任何地方 — 中间没有云存储。",
+    "airdropQuote": "把它想象成面向所有人的 AirDrop。",
     "downloadForMacAppleSilicon": "下载 Mac 版 (Apple Silicon)",
     "downloadForMacIntel": "下载 Mac 版 (Intel)",
     "downloadForWindows": "下载 Windows 版",
     "downloadForLinuxAppImage": "下载 Linux 版 (AppImage)"
+  },
+  "howItWorks": {
+    "title": "工作原理",
+    "subtitle": "简单。安全。即时。",
+    "step1": {
+      "title": "拖放您的文件或文件夹。",
+      "description": "AltSendme 创建一个一次性共享代码（称为\"票据\"）。"
+    },
+    "step2": {
+      "title": "分享票据。",
+      "description": "复制它并发送给您的朋友 — 通过聊天、电子邮件或短信。"
+    },
+    "step3": {
+      "title": "他们直接接收。",
+      "description": "您的朋友在他们的应用中粘贴票据，传输即开始。"
+    }
+  },
+  "features": {
+    "title": "为什么人们喜欢 AltSendme",
+    "private": {
+      "title": "私密和加密",
+      "description": "文件直接发送给您的朋友：永远不会在线存储。"
+    },
+    "fast": {
+      "title": "快速传输",
+      "description": "AltSendme 可以饱和高达 4Gbps 的连接。"
+    },
+    "unlimited": {
+      "title": "无限制文件大小",
+      "description": "发送千兆字节的数据：无限制，无订阅。"
+    },
+    "noAccounts": {
+      "title": "无需账户",
+      "description": "打开、拖放、分享：就这样。"
+    },
+    "crossPlatform": {
+      "title": "跨平台",
+      "description": "适用于 Windows、macOS 和 Linux。"
+    },
+    "openSource": {
+      "title": "开源和透明",
+      "description": "完全开源的代码：检查、验证和信任。没有隐藏代码，没有意外。"
+    }
+  },
+  "comparison": {
+    "title": "为什么 AltSendme 更好",
+    "altSendme": "AltSendme",
+    "cloudSharing": "云共享 (Drive, WeTransfer 等)",
+    "accountRequired": "需要账户",
+    "fileSizeLimit": "文件大小限制",
+    "privacy": "隐私",
+    "speed": "速度",
+    "cost": "成本",
+    "no": "否",
+    "yes": "是",
+    "unlimited": "无限制",
+    "usuallyLimited": "通常有限制",
+    "endToEndEncrypted": "加密直接传输",
+    "storedOnServer": "存储在服务器上",
+    "directConnection": "高达 4Gbps",
+    "uploadDownload": "上传 + 下载",
+    "free": "免费",
+    "oftenPaid": "通常付费"
+  },
+  "testimonial": {
+    "title": "评价",
+    "rating": "4.5 / 5 — Softpedia",
+    "quote": "一个非常直接的文件传输应用。非常适合在网络上快速、简单地传输文件。"
+  },
+  "download": {
+    "title": "立即试用 AltSendme",
+    "subtitle": "免费、开源，面向所有人开放"
+  },
+  "taglineFooter": {
+    "quote": "它就像一个私密的一次性 AirDrop 链接 — 适用于任何人，任何地方。"
   },
   "meta": {
     "title": "将文件发送到任何地方 | 无摩擦、快速、私密、无限且免费",
     "description": "AltSendme 是一款无摩擦的点对点文件传输跨平台桌面应用程序。通过互联网发送文件和目录，无需账户要求，端到端加密，无限传输，完全隐私控制。适用于 Windows、macOS 和 Linux。"
   }
 }
-
