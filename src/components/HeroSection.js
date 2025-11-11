@@ -76,7 +76,7 @@ export default function HeroSection() {
 
   return (
     <section className="flex flex-col items-center py-10 px-5 w-full md:px-10 lg:px-[60px]">
-      <h1 className="font-swear-display text-[41px] leading-[1.2] text-center text-foreground font-normal mb-4 max-w-[600px] md:text-[48px] md:mb-6 md:max-w-[800px] lg:mb-8 lg:max-w-[1000px]">
+      <h1 className="font-swear-display text-[41px] leading-[1.2] text-center text-foreground font-normal mb-6 max-w-[600px] md:text-[48px] md:mb-6 md:max-w-[800px] lg:mb-8 lg:max-w-[1000px]">
         {t('hero.title')}
       </h1>
 
@@ -118,7 +118,7 @@ export default function HeroSection() {
               href={primaryDownload.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-all h-16 rounded-[20px] px-6 text-xl flex-1 rounded-r-none border-0 shadow-none group-hover:shadow-none transform-none group-hover:transform-none bg-transparent hover:bg-transparent text-foreground"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-all h-16 rounded-[20px] px-4 text-base md:px-6 md:text-lg lg:text-xl flex-1 rounded-r-none border-0 shadow-none group-hover:shadow-none transform-none group-hover:transform-none bg-transparent hover:bg-transparent text-foreground"
             >
               <Image
                 src={primaryDownload.icon}

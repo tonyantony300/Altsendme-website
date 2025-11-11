@@ -7,6 +7,17 @@ export default function FeaturesGrid() {
 
   const features = [
     {
+        key: 'unlimited',
+        title: t('features.unlimited.title'),
+        description: t('features.unlimited.description'),
+      },
+
+    {
+        key: 'noAccounts',
+        title: t('features.noAccounts.title'),
+        description: t('features.noAccounts.description'),
+      },
+    {
       key: 'private',
       title: t('features.private.title'),
       description: t('features.private.description'),
@@ -17,24 +28,14 @@ export default function FeaturesGrid() {
       description: t('features.fast.description'),
     },
     {
-      key: 'unlimited',
-      title: t('features.unlimited.title'),
-      description: t('features.unlimited.description'),
-    },
-    {
-      key: 'noAccounts',
-      title: t('features.noAccounts.title'),
-      description: t('features.noAccounts.description'),
-    },
-    {
       key: 'crossPlatform',
       title: t('features.crossPlatform.title'),
       description: t('features.crossPlatform.description'),
     },
     {
-      key: 'resumable',
-      title: t('features.resumable.title'),
-      description: t('features.resumable.description'),
+      key: 'openSource',
+      title: t('features.openSource.title'),
+      description: t('features.openSource.description'),
     },
   ];
 
