@@ -7,11 +7,104 @@
     "license": "© GNU Affero General Public License v3.0"
   },
   "hero": {
-    "title": "Send files <em>anywhere</em> - fast, private, and simple.",
+    "title": "Send files instantly — no accounts, no limits, no hassle.",
+    "description": "AltSendme lets you send files directly from your computer to anyone, anywhere.",
+    "airdropQuote": "Think of it like AirDrop for everyone.",
     "downloadForMacAppleSilicon": "Download for Mac (Apple Silicon)",
     "downloadForMacIntel": "Download for Mac (Intel)",
     "downloadForWindows": "Download for Windows",
     "downloadForLinuxAppImage": "Download for Linux (AppImage)"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Simple. Secure. Instant.",
+    "step1": {
+      "title": "Drop your file or folder.",
+      "description": "AltSendme creates a one-time share code (called a \"ticket\")."
+    },
+    "step2": {
+      "title": "Share the ticket.",
+      "description": "Copy it and send it to your friend — via chat, email, or text."
+    },
+    "step3": {
+      "title": "They receive it directly.",
+      "description": "Your friend pastes the ticket in their app, and the transfer begins.",
+      "note": "No uploads, no waiting, no accounts — just a private connection between you two."
+    },
+    "privacyNote": "Transfers are direct and encrypted — your data never touches a server."
+  },
+  "features": {
+    "title": "Why People Love AltSendme",
+    "private": {
+      "title": "Private & Encrypted",
+      "description": "Files go straight to your friend — never stored anywhere online."
+    },
+    "fast": {
+      "title": "Fast Transfers",
+      "description": "Uses your full internet speed, even faster on local Wi-Fi."
+    },
+    "unlimited": {
+      "title": "Unlimited File Size",
+      "description": "Send gigabytes of data — no limits, no subscriptions."
+    },
+    "noAccounts": {
+      "title": "No Accounts Needed",
+      "description": "Open, drop, share — that's it."
+    },
+    "crossPlatform": {
+      "title": "Cross-Platform",
+      "description": "Works on Windows, macOS, and Linux."
+    },
+    "resumable": {
+      "title": "Resumable Downloads",
+      "description": "Transfers pick up automatically if they're interrupted."
+    }
+  },
+  "comparison": {
+    "title": "Why AltSendme Is Better",
+    "altSendme": "AltSendme",
+    "cloudSharing": "Cloud Sharing (Drive, WeTransfer, etc.)",
+    "accountRequired": "Account Required",
+    "fileSizeLimit": "File Size Limit",
+    "privacy": "Privacy",
+    "speed": "Speed",
+    "cost": "Cost",
+    "no": "No",
+    "yes": "Yes",
+    "unlimited": "Unlimited",
+    "usuallyLimited": "Usually Limited",
+    "endToEndEncrypted": "End-to-end Encrypted",
+    "storedOnServer": "Stored on Server",
+    "directConnection": "Direct Connection",
+    "uploadDownload": "Upload + Download",
+    "free": "Free",
+    "oftenPaid": "Often Paid"
+  },
+  "testimonial": {
+    "title": "What People Are Saying",
+    "rating": "4.5 / 5 — Softpedia",
+    "quote": "A very straightforward file transfer app. Great for quick, simple file transfers across the web."
+  },
+  "download": {
+    "title": "Download AltSendme",
+    "subtitle": "Free, Open Source, and Available for Everyone",
+    "windows": "Windows Installer",
+    "macos": "macOS",
+    "linux": "Linux",
+    "note": "Open source and free forever.",
+    "tagline1": "Your files. Your privacy. Your speed.",
+    "tagline2": "No accounts. No tracking. No nonsense."
+  },
+  "privacy": {
+    "title": "Privacy & Security",
+    "description": "AltSendme connects your devices directly using <strong>encrypted peer-to-peer channels</strong> (TLS 1.3 + QUIC).",
+    "noData": "No data ever passes through third-party servers.",
+    "onlyYou": "Only you and your recipient can see the file names and sizes before transfer.",
+    "private": "100% private. 0% upload to the cloud.",
+    "learnMore": "Learn more about our privacy approach →"
+  },
+  "taglineFooter": {
+    "quote": "It's like a private, one-time AirDrop link — for anyone, anywhere."
   },
   "meta": {
     "title": "Send files anywhere | Frictionless, Fast, Private, Unlimited and Free",
