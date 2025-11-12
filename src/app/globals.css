@@ -35,4 +35,23 @@
   a {
     @apply text-inherit no-underline;
   }
+
+  /* Override browser autocomplete background colors */
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #f1ece6 inset !important;
+    -webkit-text-fill-color: #000000 !important;
+    box-shadow: 0 0 0 30px #f1ece6 inset !important;
+  }
+
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  textarea:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #f1ece6 inset !important;
+    -webkit-text-fill-color: #000000 !important;
+    box-shadow: 0 0 0 30px #f1ece6 inset !important;
+  }
 }

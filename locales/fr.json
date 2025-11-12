@@ -90,6 +90,16 @@
   "taglineFooter": {
     "quote": "C'est comme un lien AirDrop privé et unique — pour n'importe qui, n'importe où."
   },
+  "contact": {
+    "title": "Nous contacter",
+    "name": "Votre nom",
+    "email": "Votre email",
+    "message": "Message",
+    "submit": "Envoyer le message",
+    "submitting": "Envoi en cours...",
+    "success": "Merci ! Votre message a été envoyé avec succès.",
+    "error": "Quelque chose s'est mal passé. Veuillez réessayer plus tard."
+  },
   "faq": {
     "title": "Questions fréquemment posées",
     "items": {
@@ -111,7 +121,7 @@
       },
       "faq5": {
         "question": "Comment se compare-t-il à FilePizza, Wormhole et PairDrop ?",
-        "answer": "AltSendme offre une meilleure expérience de partage de fichiers que les outils uniquement Web comme FilePizza, Wormhole ou PairDrop. En exploitant QUIC sur UDP, il permet des transferts peer-to-peer plus rapides et résilients avec chiffrement intégré, authentification et multiplexage de flux. Son application de bureau permet d'envoyer de gros fichiers et des dossiers complets avec support pause/reprise et moins de limitations de navigateur. De plus, les opérations d'intégrité et cryptographiques sont optimisées pour la vitesse, faisant d'AltSendme un choix fiable pour les transferts vérifiés."
+        "answer": "AltSendme offre une meilleure expérience de partage de fichiers que les autres outils P2P uniquement Web. En exploitant QUIC sur UDP, il permet des transferts peer-to-peer plus rapides et résilients avec chiffrement intégré, authentification et multiplexage de flux. Il permet d'envoyer de gros fichiers et des dossiers complets avec support pause/reprise et moins de limitations de navigateur. De plus, les opérations d'intégrité et cryptographiques sont optimisées pour la vitesse, faisant d'AltSendme un choix fiable pour les transferts vérifiés."
       },
       "faq6": {
         "question": "Ai-je besoin d'une connexion Internet pour utiliser AltSendme ?",

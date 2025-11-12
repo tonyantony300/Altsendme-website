@@ -90,6 +90,16 @@
   "taglineFooter": {
     "quote": "Es ist wie ein privater, einmaliger AirDrop-Link — für jeden, überall."
   },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "name": "Ihr Name",
+    "email": "Ihre E-Mail",
+    "message": "Nachricht",
+    "submit": "Nachricht senden",
+    "submitting": "Wird gesendet...",
+    "success": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut."
+  },
   "faq": {
     "title": "Häufig gestellte Fragen",
     "items": {
@@ -111,7 +121,7 @@
       },
       "faq5": {
         "question": "Wie vergleicht es sich mit FilePizza, Wormhole und PairDrop?",
-        "answer": "AltSendme bietet eine bessere Dateifreigabe-Erfahrung als reine Web-Tools wie FilePizza, Wormhole oder PairDrop. Durch die Nutzung von QUIC über UDP ermöglicht es schnellere, widerstandsfähige Peer-to-Peer-Übertragungen mit integrierter Verschlüsselung, Authentifizierung und Stream-Multiplexing. Die Desktop-App ermöglicht das Senden großer Dateien und vollständiger Ordner mit Pause/Fortsetzen-Unterstützung und weniger Browser-Einschränkungen. Darüber hinaus sind Integritäts- und kryptografische Operationen für Geschwindigkeit optimiert, was AltSendme zu einer zuverlässigen Wahl für verifizierte Übertragungen macht."
+        "answer": "AltSendme bietet eine bessere Dateifreigabe-Erfahrung als andere reine P2P-Web-Tools. Durch die Nutzung von QUIC über UDP ermöglicht es schnellere, widerstandsfähige Peer-to-Peer-Übertragungen mit integrierter Verschlüsselung, Authentifizierung und Stream-Multiplexing. Es ermöglicht das Senden großer Dateien und vollständiger Ordner mit Pause/Fortsetzen-Unterstützung und weniger Browser-Einschränkungen. Darüber hinaus sind Integritäts- und kryptografische Operationen für Geschwindigkeit optimiert, was AltSendme zu einer zuverlässigen Wahl für verifizierte Übertragungen macht."
       },
       "faq6": {
         "question": "Benötige ich eine Internetverbindung, um AltSendme zu verwenden?",

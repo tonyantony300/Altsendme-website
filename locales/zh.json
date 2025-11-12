@@ -90,6 +90,16 @@
   "taglineFooter": {
     "quote": "它就像一个私密的一次性 AirDrop 链接 — 适用于任何人，任何地方。"
   },
+  "contact": {
+    "title": "联系我们",
+    "name": "您的姓名",
+    "email": "您的邮箱",
+    "message": "消息",
+    "submit": "发送消息",
+    "submitting": "发送中...",
+    "success": "谢谢！您的消息已成功发送。",
+    "error": "出错了。请稍后再试。"
+  },
   "faq": {
     "title": "常见问题",
     "items": {
@@ -111,7 +121,7 @@
       },
       "faq5": {
         "question": "它与 FilePizza、Wormhole 和 PairDrop 相比如何？",
-        "answer": "AltSendme 提供比 FilePizza、Wormhole 或 PairDrop 等仅限 Web 的工具更好的文件共享体验。通过在 UDP 上利用 QUIC，它能够实现更快、更有弹性的点对点传输，具有内置加密、身份验证和流多路复用。其桌面应用程序允许发送大文件和完整文件夹，支持暂停/恢复，浏览器限制更少。此外，完整性和加密操作针对速度进行了优化，使 AltSendme 成为经过验证的传输的可靠选择。"
+        "answer": "AltSendme 提供比其他仅限 Web 的 P2P 工具更好的文件共享体验。通过在 UDP 上利用 QUIC，它能够实现更快、更有弹性的点对点传输，具有内置加密、身份验证和流多路复用。它允许发送大文件和完整文件夹，支持暂停/恢复，浏览器限制更少。此外，完整性和加密操作针对速度进行了优化，使 AltSendme 成为经过验证的传输的可靠选择。"
       },
       "faq6": {
         "question": "使用 AltSendme 需要互联网连接吗？",
