@@ -7,8 +7,8 @@
     "license": "© GNU Affero General Public License v3.0"
   },
   "hero": {
-    "title": "即时发送文件。无需账户，无限制，无麻烦。",
-    "description": "从您的计算机直接、加密的文件传输到任何人、任何地方 — 中间没有云存储。",
+    "title": "文件传输不必复杂",
+    "description": "从您的计算机直接、加密的文件传输到任何人、任何地方 — 无需注册，中间没有云存储。",
     "airdropQuote": "把它想象成面向所有人的 AirDrop。",
     "downloadForMacAppleSilicon": "下载 Mac 版 (Apple Silicon)",
     "downloadForMacIntel": "下载 Mac 版 (Intel)",
@@ -42,8 +42,8 @@
       "description": "AltSendme 可以饱和高达 4Gbps 的连接。"
     },
     "unlimited": {
-      "title": "无限制文件大小",
-      "description": "发送千兆字节的数据：无限制，无订阅。"
+      "title": "传输任何内容",
+      "description": "可靠地发送任何大小的文件或文件夹。"
     },
     "noAccounts": {
       "title": "无需账户",
@@ -55,7 +55,7 @@
     },
     "openSource": {
       "title": "开源和透明",
-      "description": "完全开源的代码：检查、验证和信任。没有隐藏代码，没有意外。"
+      "description": "完全开源的代码：检查、验证和信任。"
     }
   },
   "comparison": {

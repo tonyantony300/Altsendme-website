@@ -7,8 +7,8 @@
     "license": "© GNU Affero General Public License v3.0"
   },
   "hero": {
-    "title": "ファイルを即座に送信。アカウント不要、制限なし、手間なし。",
-    "description": "コンピューターから誰にでも、どこにでも直接暗号化されたファイル転送 — クラウドストレージを介さない。",
+    "title": "ファイル転送は複雑である必要はありません",
+    "description": "コンピューターから誰にでも、どこにでも直接暗号化されたファイル転送 — サインアップ不要、クラウドストレージを介さない。",
     "airdropQuote": "誰でも使えるAirDropのようなものと考えてください。",
     "downloadForMacAppleSilicon": "Mac用をダウンロード (Apple Silicon)",
     "downloadForMacIntel": "Mac用をダウンロード (Intel)",
@@ -42,8 +42,8 @@
       "description": "AltSendmeは最大4Gbpsの接続を飽和させることができます。"
     },
     "unlimited": {
-      "title": "無制限のファイルサイズ",
-      "description": "ギガバイトのデータを送信：制限なし、サブスクリプションなし。"
+      "title": "何でも転送",
+      "description": "任意のサイズのファイルやフォルダを確実に送信。"
     },
     "noAccounts": {
       "title": "アカウント不要",
@@ -55,7 +55,7 @@
     },
     "openSource": {
       "title": "オープンソース & 透明性",
-      "description": "完全にオープンソースのコード：検査、検証、信頼。隠されたコードなし、驚きなし。"
+      "description": "完全にオープンソースのコード：検査、検証、信頼。"
     }
   },
   "comparison": {

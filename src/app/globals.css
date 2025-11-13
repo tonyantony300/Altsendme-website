@@ -55,3 +55,14 @@
     box-shadow: 0 0 0 30px #f1ece6 inset !important;
   }
 }
+
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::marker {
+  display: none;
+}
+summary {
+  list-style: none;
+  cursor: pointer;
+}

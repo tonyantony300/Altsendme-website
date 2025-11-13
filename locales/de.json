@@ -7,8 +7,8 @@
     "license": "© GNU Affero General Public License v3.0"
   },
   "hero": {
-    "title": "Dateien sofort senden. Keine Konten, keine Limits, kein Aufwand.",
-    "description": "Direkte, verschlüsselte Dateiübertragungen von Ihrem Computer zu jedem, überall — keine Cloud-Speicherung dazwischen.",
+    "title": "Dateiübertragung muss nicht kompliziert sein",
+    "description": "Direkte, verschlüsselte Dateiübertragungen von Ihrem Computer zu jedem, überall — keine Anmeldung, keine Cloud-Speicherung dazwischen.",
     "airdropQuote": "Stellen Sie es sich wie AirDrop für alle vor.",
     "downloadForMacAppleSilicon": "Für Mac herunterladen (Apple Silicon)",
     "downloadForMacIntel": "Für Mac herunterladen (Intel)",
@@ -42,8 +42,8 @@
       "description": "AltSendme kann Verbindungen bis zu 4Gbps auslasten."
     },
     "unlimited": {
-      "title": "Unbegrenzte Dateigröße",
-      "description": "Senden Sie Gigabytes an Daten: keine Limits, keine Abonnements."
+      "title": "Alles übertragen",
+      "description": "Senden Sie Dateien oder Ordner beliebiger Größe zuverlässig."
     },
     "noAccounts": {
       "title": "Keine Konten erforderlich",
@@ -55,7 +55,7 @@
     },
     "openSource": {
       "title": "Open Source & Transparent",
-      "description": "Vollständig quelloffener Code: prüfen, verifizieren und vertrauen. Kein versteckter Code, keine Überraschungen."
+      "description": "Vollständig quelloffener Code: prüfen, verifizieren und vertrauen."
     }
   },
   "comparison": {

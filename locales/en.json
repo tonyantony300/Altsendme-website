@@ -7,8 +7,8 @@
     "license": "© GNU Affero General Public License v3.0"
   },
   "hero": {
-    "title": "Send files instantly. No accounts, no limits, no hassle.",
-    "description": "Direct, encrypted file transfers from your computer to anyone, anywhere — no cloud storage in between.",
+    "title": "File transfer doesn't need to be complicated",
+    "description": "Direct, encrypted file transfers from your computer to anyone, anywhere — no signup, no cloud storage in between.",
     "airdropQuote": "Think of it like AirDrop for everyone.",
     "downloadForMacAppleSilicon": "Download for Mac (Apple Silicon)",
     "downloadForMacIntel": "Download for Mac (Intel)",
@@ -42,8 +42,8 @@
       "description": "AltSendme can saturate upto 4Gbps connections."
     },
     "unlimited": {
-      "title": "Unlimited File Size",
-      "description": "Send gigabytes of data: no limits, no subscriptions."
+      "title": "Transfer Anything",
+      "description": "Send files or folders of any size reliably."
     },
     "noAccounts": {
       "title": "No Accounts Needed",
@@ -55,7 +55,7 @@
     },
     "openSource": {
       "title": "Open Source & Transparent",
-      "description": "Fully open source code: inspect, verify, and trust. No hidden code, no surprises."
+      "description": "Fully open source code: inspect, verify, and trust."
     }
   },
   "comparison": {
