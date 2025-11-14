@@ -10,9 +10,9 @@
     "title": "Dateiübertragung muss nicht kompliziert sein",
     "description": "Direkte, verschlüsselte Dateiübertragungen von Ihrem Computer zu jedem, überall — keine Anmeldung, keine Cloud-Speicherung dazwischen.",
     "airdropQuote": "Stellen Sie es sich wie AirDrop für alle vor.",
-    "downloadForMacAppleSilicon": "Für Mac herunterladen (Apple Silicon)",
-    "downloadForMacIntel": "Für Mac herunterladen (Intel)",
+    "downloadForMac": "Für Mac herunterladen",
     "downloadForWindows": "Für Windows herunterladen",
+    "downloadForLinux": "Für Linux herunterladen",
     "downloadForLinuxAppImage": "Für Linux herunterladen (AppImage)"
   },
   "howItWorks": {

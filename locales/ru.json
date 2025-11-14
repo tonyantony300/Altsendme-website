@@ -10,9 +10,9 @@
     "title": "Передача файлов не должна быть сложной",
     "description": "Прямая, зашифрованная передача файлов с вашего компьютера кому угодно, куда угодно — без регистрации, без облачного хранилища между ними.",
     "airdropQuote": "Думайте об этом как об AirDrop для всех.",
-    "downloadForMacAppleSilicon": "Скачать для Mac (Apple Silicon)",
-    "downloadForMacIntel": "Скачать для Mac (Intel)",
+    "downloadForMac": "Скачать для Mac",
     "downloadForWindows": "Скачать для Windows",
+    "downloadForLinux": "Скачать для Linux",
     "downloadForLinuxAppImage": "Скачать для Linux (AppImage)"
   },
   "howItWorks": {

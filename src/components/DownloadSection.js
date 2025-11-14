@@ -37,39 +37,35 @@ export default function DownloadSection() {
     }
   }, [isDropdownOpen]);
 
+
+
+
   const downloadOptions = [
     {
-      id: "mac-apple-silicon",
-      label: t('hero.downloadForMacAppleSilicon'),
-      size: "12.6 MB",
+      id: "mac",
+      label: t('hero.downloadForMac'),
+      size: "25.5 MB",
       icon: "/applelogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_aarch64_darwin.dmg",
-    },
-    {
-      id: "mac-intel",
-      label: t('hero.downloadForMacIntel'),
-      size: "13.1 MB",
-      icon: "/applelogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_x64_darwin.dmg",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.1/AltSendme_0.2.0_universal.dmg",
     },
     {
       id: "windows",
       label: t('hero.downloadForWindows'),
       size: "7.57 MB",
       icon: "/windows.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_x64-setup_windows.exe",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.1/AltSendme_0.2.0_x64-setup.exe",
     },
     {
       id: "linux-appimage",
-      label: t('hero.downloadForLinuxAppImage'),
+      label: t('hero.downloadForLinux'),
       size: "86.8 MB",
       icon: "/linuxlogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_amd64_linux.AppImage",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.1/AltSendme_0.2.0_amd64.AppImage",
     },
   ];
 
   const primaryDownload = downloadOptions.find((opt) => 
-    (detectedOS === "mac" && opt.id === "mac-apple-silicon") ||
+    (detectedOS === "mac" && opt.id === "mac") ||
     (detectedOS === "windows" && opt.id === "windows") ||
     (detectedOS === "linux" && opt.id === "linux-appimage")
   ) || downloadOptions[0];
@@ -132,7 +128,7 @@ export default function DownloadSection() {
 
         {/* Dropdown Menu */}
         {isDropdownOpen && (
-          <div className="absolute top-full mt-2 right-0 w-full lg:w-[400px] bg-background rounded-[20px] overflow-hidden shadow-[0px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-foreground z-40">
+          <div className="absolute top-full mt-2 right-0 w-full lg:w-[300px] bg-background rounded-[20px] overflow-hidden shadow-[0px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-foreground z-40">
             <div className="m-1 overflow-hidden">
               {downloadOptions.map((option) => (
                 <a

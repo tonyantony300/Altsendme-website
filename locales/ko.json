@@ -10,9 +10,9 @@
     "title": "파일 전송이 복잡할 필요는 없습니다",
     "description": "컴퓨터에서 누구에게나, 어디로든 직접 암호화된 파일 전송 — 가입 불필요, 클라우드 저장소 없이.",
     "airdropQuote": "모두를 위한 AirDrop이라고 생각하세요.",
-    "downloadForMacAppleSilicon": "Mac용 다운로드 (Apple Silicon)",
-    "downloadForMacIntel": "Mac용 다운로드 (Intel)",
+    "downloadForMac": "Mac용 다운로드",
     "downloadForWindows": "Windows용 다운로드",
+    "downloadForLinux": "Linux용 다운로드",
     "downloadForLinuxAppImage": "Linux용 다운로드 (AppImage)"
   },
   "howItWorks": {

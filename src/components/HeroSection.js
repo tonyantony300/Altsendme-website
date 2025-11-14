@@ -37,39 +37,33 @@ export default function HeroSection() {
     }
   }, [isDropdownOpen]);
 
+
   const downloadOptions = [
     {
-      id: "mac-apple-silicon",
-      label: t('hero.downloadForMacAppleSilicon'),
-      size: "12.6 MB",
+      id: "mac",
+      label: t('hero.downloadForMac'),
+      size: "25.5 MB",
       icon: "/applelogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_aarch64_darwin.dmg",
-    },
-    {
-      id: "mac-intel",
-      label: t('hero.downloadForMacIntel'),
-      size: "13.1 MB",
-      icon: "/applelogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_x64_darwin.dmg",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.1/AltSendme_0.2.0_universal.dmg",
     },
     {
       id: "windows",
       label: t('hero.downloadForWindows'),
       size: "7.57 MB",
       icon: "/windows.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_x64-setup_windows.exe",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.1/AltSendme_0.2.0_x64-setup.exe",
     },
     {
       id: "linux-appimage",
-      label: t('hero.downloadForLinuxAppImage'),
+      label: t('hero.downloadForLinux'),
       size: "86.8 MB",
       icon: "/linuxlogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.0/AltSendme_0.2.0_amd64_linux.AppImage",
+      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.1/AltSendme_0.2.0_amd64.AppImage",
     },
   ];
 
   const primaryDownload = downloadOptions.find((opt) => 
-    (detectedOS === "mac" && opt.id === "mac-apple-silicon") ||
+    (detectedOS === "mac" && opt.id === "mac") ||
     (detectedOS === "windows" && opt.id === "windows") ||
     (detectedOS === "linux" && opt.id === "linux-appimage")
   ) || downloadOptions[0];
@@ -178,7 +172,7 @@ export default function HeroSection() {
                       />
                       <span className="font-federo font-medium text-base truncate">{option.label}</span>
                     </div>
-                    <span className="font-federo text-sm font-bold flex-shrink-0 ml-2">{option.size}</span>
+                    <span className="font-federo text-sm flex-shrink-0 ml-2">{option.size}</span>
                   </a>
                 ))}
               </div>

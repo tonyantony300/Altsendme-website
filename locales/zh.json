@@ -10,9 +10,9 @@
     "title": "文件传输不必复杂",
     "description": "从您的计算机直接、加密的文件传输到任何人、任何地方 — 无需注册，中间没有云存储。",
     "airdropQuote": "把它想象成面向所有人的 AirDrop。",
-    "downloadForMacAppleSilicon": "下载 Mac 版 (Apple Silicon)",
-    "downloadForMacIntel": "下载 Mac 版 (Intel)",
+    "downloadForMac": "下载 Mac 版",
     "downloadForWindows": "下载 Windows 版",
+    "downloadForLinux": "下载 Linux 版",
     "downloadForLinuxAppImage": "下载 Linux 版 (AppImage)"
   },
   "howItWorks": {

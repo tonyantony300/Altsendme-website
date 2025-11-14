@@ -10,9 +10,9 @@
     "title": "ファイル転送は複雑である必要はありません",
     "description": "コンピューターから誰にでも、どこにでも直接暗号化されたファイル転送 — サインアップ不要、クラウドストレージを介さない。",
     "airdropQuote": "誰でも使えるAirDropのようなものと考えてください。",
-    "downloadForMacAppleSilicon": "Mac用をダウンロード (Apple Silicon)",
-    "downloadForMacIntel": "Mac用をダウンロード (Intel)",
+    "downloadForMac": "Mac用をダウンロード",
     "downloadForWindows": "Windows用をダウンロード",
+    "downloadForLinux": "Linux用をダウンロード",
     "downloadForLinuxAppImage": "Linux用をダウンロード (AppImage)"
   },
   "howItWorks": {

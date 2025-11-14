@@ -10,9 +10,9 @@
     "title": "Le transfert de fichiers n'a pas besoin d'être compliqué",
     "description": "Transferts de fichiers directs et cryptés de votre ordinateur vers n'importe qui, n'importe où — pas d'inscription, aucun stockage cloud entre les deux.",
     "airdropQuote": "Pensez-y comme à AirDrop pour tout le monde.",
-    "downloadForMacAppleSilicon": "Télécharger pour Mac (Apple Silicon)",
-    "downloadForMacIntel": "Télécharger pour Mac (Intel)",
+    "downloadForMac": "Télécharger pour Mac",
     "downloadForWindows": "Télécharger pour Windows",
+    "downloadForLinux": "Télécharger pour Linux",
     "downloadForLinuxAppImage": "Télécharger pour Linux (AppImage)"
   },
   "howItWorks": {

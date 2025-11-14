@@ -10,9 +10,9 @@
     "title": "การถ่ายโอนไฟล์ไม่จำเป็นต้องซับซ้อน",
     "description": "การถ่ายโอนไฟล์ที่เข้ารหัสโดยตรงจากคอมพิวเตอร์ของคุณไปยังใครก็ได้ ที่ไหนก็ได้ — ไม่ต้องสมัครสมาชิก ไม่มีที่เก็บข้อมูลบนคลาวด์คั่นกลาง",
     "airdropQuote": "คิดว่ามันเหมือน AirDrop สำหรับทุกคน",
-    "downloadForMacAppleSilicon": "ดาวน์โหลดสำหรับ Mac (Apple Silicon)",
-    "downloadForMacIntel": "ดาวน์โหลดสำหรับ Mac (Intel)",
+    "downloadForMac": "ดาวน์โหลดสำหรับ Mac",
     "downloadForWindows": "ดาวน์โหลดสำหรับ Windows",
+    "downloadForLinux": "ดาวน์โหลดสำหรับ Linux",
     "downloadForLinuxAppImage": "ดาวน์โหลดสำหรับ Linux (AppImage)"
   },
   "howItWorks": {

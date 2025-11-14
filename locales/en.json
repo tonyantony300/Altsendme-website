@@ -10,9 +10,9 @@
     "title": "File transfer doesn't need to be complicated",
     "description": "Direct, encrypted file transfers from your computer to anyone, anywhere — no signup, no cloud storage in between.",
     "airdropQuote": "Think of it like AirDrop for everyone.",
-    "downloadForMacAppleSilicon": "Download for Mac (Apple Silicon)",
-    "downloadForMacIntel": "Download for Mac (Intel)",
+    "downloadForMac": "Download for Mac",
     "downloadForWindows": "Download for Windows",
+    "downloadForLinux": "Download for Linux",
     "downloadForLinuxAppImage": "Download for Linux (AppImage)"
   },
   "howItWorks": {

@@ -18,7 +18,7 @@ export default function HowItWorks() {
       <div className="w-full max-w-[800px] flex flex-col gap-7 md:gap-10">
         {/* Step 1 */}
         <div className="flex flex-col gap-2 sm:gap-3 items-center text-center">
-          <h3 className="font-federo text-lg text-foreground font-medium sm:text-xl md:text-2xl">
+          <h3 className="font-swear-display text-lg text-foreground font-medium sm:text-xl md:text-2xl">
             1. {t('howItWorks.step1.title')}
           </h3>
           <p className="font-fanwood-text text-sm text-foreground sm:text-base md:text-lg">
@@ -28,7 +28,7 @@ export default function HowItWorks() {
 
         {/* Step 2 */}
         <div className="flex flex-col gap-2 sm:gap-3 items-center text-center">
-          <h3 className="font-federo text-lg text-foreground font-medium sm:text-xl md:text-2xl">
+          <h3 className="font-swear-display text-lg text-foreground font-medium sm:text-xl md:text-2xl">
             2. {t('howItWorks.step2.title')}
           </h3>
           <p className="font-fanwood-text text-sm text-foreground sm:text-base md:text-lg">
@@ -38,7 +38,7 @@ export default function HowItWorks() {
 
         {/* Step 3 */}
         <div className="flex flex-col gap-2 sm:gap-3 items-center text-center">
-          <h3 className="font-federo text-lg text-foreground font-medium sm:text-xl md:text-2xl">
+          <h3 className="font-swear-display text-lg text-foreground font-medium sm:text-xl md:text-2xl">
             3. {t('howItWorks.step3.title')}
           </h3>
           <p className="font-fanwood-text text-sm text-foreground sm:text-base md:text-lg">
