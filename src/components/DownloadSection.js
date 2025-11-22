@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useTranslations } from 'next-intl';
+import { getDownloadOptions } from '@/constants/downloadOptions';
 
 export default function DownloadSection() {
   const t = useTranslations();
@@ -37,32 +38,7 @@ export default function DownloadSection() {
     }
   }, [isDropdownOpen]);
 
-
-
-
-  const downloadOptions = [
-    {
-      id: "mac",
-      label: t('hero.downloadForMac'),
-      size: "25.5 MB",
-      icon: "/applelogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.1/AltSendme_0.2.1_universal.dmg",
-    },
-    {
-      id: "windows",
-      label: t('hero.downloadForWindows'),
-      size: "7.57 MB",
-      icon: "/windows.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.1/AltSendme_0.2.1_x64-setup.exe",
-    },
-    {
-      id: "linux-appimage",
-      label: t('hero.downloadForLinux'),
-      size: "86.8 MB",
-      icon: "/linuxlogo.svg",
-      url: "https://github.com/tonyantony300/alt-sendme/releases/download/v0.2.1/AltSendme_0.2.1_amd64.AppImage",
-    },
-  ];
+  const downloadOptions = getDownloadOptions(t);
 
   const primaryDownload = downloadOptions.find((opt) => 
     (detectedOS === "mac" && opt.id === "mac") ||
