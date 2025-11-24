@@ -41,23 +41,51 @@ export default function StructuredData({ locale }) {
       "ratingValue": "4.5",
       "bestRating": "5",
       "worstRating": "1",
-      "ratingCount": "1"
+      "ratingCount": "4"
     },
-    "review": {
-      "@type": "Review",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4.5",
-        "bestRating": "5",
-        "worstRating": "1"
+    "review": [
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.5",
+          "bestRating": "5",
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Softpedia"
+        },
+        "reviewBody": "AltSendme received a 4.5/5 rating from Softpedia",
+        "url": "https://mac.softpedia.com/get/Internet-Utilities/AltSendme.shtml"
       },
-      "author": {
-        "@type": "Organization",
-        "name": "Softpedia"
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Organization",
+          "name": "Softpedia"
+        },
+        "reviewBody": "AltSendme listing on Softpedia Linux",
+        "url": "https://linux.softpedia.com/get/Communications/Filesharing/AltSendme-104966.shtml"
       },
-      "reviewBody": "AltSendme received a 4.5/5 rating from Softpedia",
-      "url": "https://mac.softpedia.com/get/Internet-Utilities/AltSendme.shtml"
-    },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Organization",
+          "name": "Neowin"
+        },
+        "reviewBody": "AltSendme review on Neowin",
+        "url": "https://www.neowin.net/amp/altsendme-021/"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Organization",
+          "name": "XDA Developers"
+        },
+        "reviewBody": "I swapped Dropbox for this self-hosted alternative - AltSendme review on XDA Developers",
+        "url": "https://www.xda-developers.com/i-swapped-dropbox-for-this-self-hosted-alternative/"
+      }
+    ],
     "screenshot": "https://altsendme.com/hero.png",
     "keywords": "file transfer, peer-to-peer, P2P, encrypted, secure, private, cross-platform, free, unlimited, open source, iroh, sendme",
     "inLanguage": ["en", "fr", "th", "de", "zh", "ja", "ru", "ko"],

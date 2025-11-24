@@ -7,6 +7,7 @@ import HowItWorks from '@/components/HowItWorks';
 import FeaturesGrid from '@/components/FeaturesGrid';
 import ComparisonTable from '@/components/ComparisonTable';
 import Testimonial from '@/components/Testimonial';
+import PressReviews from '@/components/PressReviews';
 import DownloadSection from '@/components/DownloadSection';
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <FeaturesGrid />
         <ComparisonTable />
         <Testimonial />
+        <PressReviews />
         <DownloadSection />
       </main>
 
