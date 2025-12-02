@@ -1,0 +1,139 @@
+{  
+  "common": {  
+    "logo": "AltSendme",  
+    "buyMeACoffee": "Offrimi un caffè",  
+    "freeAndOpenSource": "Gratuito e Open Source",  
+    "hireDeveloper": "Assumi uno sviluppatore",  
+    "license": "© GNU Affero General Public License v3.0"  
+  },  
+  "hero": {  
+    "title": "Il trasferimento di file non deve essere complicato",  
+    "description": "Trasferimenti diretti e crittografati dal tuo computer a chiunque, ovunque, senza registrazione, senza archiviazione cloud intermedio.",  
+    "airdropQuote": "Pensalo come AirDrop per tutti.",  
+    "downloadForMac": "Scarica per Mac",  
+    "downloadForWindows": "Scarica per Windows",  
+    "downloadForLinux": "Scarica per Linux",  
+    "downloadForLinuxAppImage": "Scarica per Linux (AppImage)"  
+  },  
+  "howItWorks": {  
+    "title": "Come Funziona",  
+    "subtitle": "Semplice. Sicuro. Istantaneo.",  
+    "step1": {  
+      "title": "Trascina il tuo file o cartella.",  
+      "description": "AltSendme crea un codice di condivisione una tantum (chiamato \"ticket\")."  
+    },  
+    "step2": {  
+      "title": "Condividi il ticket.",  
+      "description": "Copialo e invialo al tuo amico tramite chat, email o SMS."  
+    },  
+    "step3": {  
+      "title": "Lo ricevono direttamente.",  
+      "description": "Il tuo amico incolla il ticket nella sua app e il trasferimento inizia."  
+    }  
+  },  
+  "features": {  
+    "title": "Perché le persone amano AltSendme",  
+    "private": {  
+      "title": "Privato e Crittografato",  
+      "description": "I file vanno direttamente al tuo amico: non vengono mai memorizzati online."  
+    },  
+    "fast": {  
+      "title": "Trasferimenti Veloci",  
+      "description": "AltSendme può saturare connessioni fino a 4Gbps."  
+    },  
+    "unlimited": {  
+      "title": "Trasferisci Qualsiasi Cosa",  
+      "description": "Invia file o cartelle di qualsiasi dimensione in modo affidabile."  
+    },  
+    "noAccounts": {  
+      "title": "Nessun Account Richiesto",  
+      "description": "Apri, trascina, condividi: ecco fatto."  
+    },  
+    "crossPlatform": {  
+      "title": "Multi-Piattaforma",  
+      "description": "Funziona su Windows, macOS e Linux."  
+    },  
+    "openSource": {  
+      "title": "Open Source e Trasparente",  
+      "description": "Codice completamente open source: ispeziona, verifica e fidati."  
+    }  
+  },  
+  "comparison": {  
+    "title": "Perché AltSendme è Migliore",  
+    "altSendme": "AltSendme",  
+    "cloudSharing": "Condivisione Cloud (Drive, WeTransfer, ecc.)",  
+    "accountRequired": "Account Richiesto",  
+    "fileSizeLimit": "Limite Dimensione File",  
+    "privacy": "Privacy",  
+    "speed": "Velocità",  
+    "cost": "Costo",  
+    "no": "No",  
+    "yes": "Sì",  
+    "unlimited": "Illimitato",  
+    "usuallyLimited": "Solitamente Limitato",  
+    "endToEndEncrypted": "Trasferimento Diretto Crittografato",  
+    "storedOnServer": "Memorizzato sul Server",  
+    "directConnection": "Fino a 4Gbps",  
+    "uploadDownload": "Caricamento + Scaricamento",  
+    "free": "Gratuito",  
+    "oftenPaid": "Spesso A Pagamento"  
+  },  
+  "testimonial": {  
+    "title": "Recensione",  
+    "rating": "4.5 / 5 — Softpedia",  
+    "quote": "Un'app di trasferimento file molto semplice. Ottima per trasferimenti di file rapidi e semplici tramite web."  
+  },  
+  "download": {  
+    "title": "Prova AltSendme ora",  
+    "subtitle": "Gratuito, Open Source e Disponibile per Tutti"  
+  },  
+  "pressReviews": {  
+    "title": "Stampa e Recensioni"  
+  },  
+  "taglineFooter": {  
+    "quote": "È come un link AirDrop privato e una tantum, per chiunque, ovunque."  
+  },  
+  "contact": {  
+    "title": "Mettiti in Contatto",  
+    "name": "Il tuo Nome",  
+    "email": "La tua Email",  
+    "message": "Messaggio",  
+    "submit": "Invia Messaggio",  
+    "submitting": "Invio...",  
+    "success": "Grazie! Il tuo messaggio è stato inviato con successo.",  
+    "error": "Qualcosa è andato storto. Riprova più tardi."  
+  },  
+  "faq": {  
+    "title": "Domande Frequenti",  
+    "items": {  
+      "faq1": {  
+        "question": "Cos'è AltSendme e come funziona?",  
+        "answer": "AltSendme è un'applicazione desktop multi-piattaforma minimalista che consente agli utenti di inviare file e directory peer-to-peer in qualsiasi parte del mondo. È costruito attorno allo <link>stack di rete Iroh</link> e utilizza relay di connessione pubblici open source per eseguire tecniche avanzate come NAT traversal e hole punching per raggiungere la destinazione."  
+      },  
+      "faq2": {  
+        "question": "AltSendme è gratuito da usare?",  
+        "answer": "Sì, AltSendme al momento non ha costi infrastrutturali. Se trai beneficio da questo lavoro, considera di supportare lo sviluppatore tramite Buy Me a Coffee o GitHub Sponsors."  
+      },  
+      "faq3": {  
+        "question": "Quali tipi di file posso trasferire con AltSendme?",  
+        "answer": "Puoi trasferire qualsiasi cosa: immagini, video, documenti e altro ancora. I controlli di integrità vengono eseguiti su entrambe le estremità, quindi i tuoi file vengono automaticamente verificati per la correttezza durante l'invio e la ricezione."  
+      },  
+      "faq4": {  
+        "question": "Quanto sono sicuri i miei dati quando uso AltSendme?",  
+        "answer": "AltSendme utilizza una forte crittografia end-to-end basata su standard moderni come TLS 1.3 e QUIC, assicurando che solo tu e il destinatario possiate accedere ai tuoi dati. Fornisce segretezza in avanti e all'indietro, quindi anche se i ticket sono esposti, i trasferimenti passati e futuri rimangono sicuri."  
+      },  
+      "faq5": {  
+        "question": "Come si confronta con FilePizza, Wormhole e PairDrop?",  
+        "answer": "AltSendme offre un'esperienza di condivisione file migliore rispetto ad altri strumenti p2p solo web. Sfruttando QUIC su UDP, consente trasferimenti peer-to-peer più veloci e resilienti con crittografia, autenticazione e multiplexing di flusso integrati. Permette di inviare file di grandi dimensioni e cartelle complete con supporto per pausa/ripresa e meno limitazioni del browser. Inoltre, le operazioni di integrità e crittografiche sono ottimizzate per la velocità, rendendo AltSendme una scelta affidabile per i trasferimenti verificati."  
+      },  
+      "faq6": {  
+        "question": "Ho bisogno di una connessione internet per usare AltSendme?",  
+        "answer": "Sì, è necessaria una connessione di rete perché i dispositivi devono connettersi tra loro. Se entrambi i dispositivi sono sulla stessa rete locale (ad esempio, la stessa Wi-Fi), non è necessario l'accesso completo a Internet, solo la connettività LAN. Tuttavia, se i dispositivi si trovano su reti diverse dietro NAT o firewall, è necessaria una connessione Internet per l'hole punching o il fallback del relay."  
+      }  
+    }  
+  },  
+  "meta": {  
+    "title": "Invia file ovunque | Senza problemi, Veloce, Privato, Illimitato e Gratuito",  
+    "description": "AltSendme è un'applicazione desktop multi-piattaforma peer-to-peer per il trasferimento di file senza problemi. Invia file e directory su Internet senza requisiti di account, crittografia end-to-end, trasferimenti illimitati e controllo completo della privacy. Disponibile per Windows, macOS e Linux."  
+  }  
+}  
