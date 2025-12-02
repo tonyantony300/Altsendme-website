@@ -45,10 +45,10 @@ export default function ComparisonTable() {
             <thead>
               <tr className="border-b-2 border-foreground bg-background">
                 <th className="font-federo text-base text-left p-4 md:text-lg md:p-6"></th>
-                <th className="font-federo text-base text-center p-4 md:text-lg md:p-6">
+                <th className="font-swear-display text-base text-center p-4 md:text-lg md:p-6">
                   {t('comparison.altSendme')}
                 </th>
-                <th className="font-federo text-base text-center p-4 md:text-lg md:p-6">
+                <th className="font-swear-display text-base text-center p-4 md:text-lg md:p-6">
                   {t('comparison.cloudSharing')}
                 </th>
               </tr>
@@ -62,10 +62,10 @@ export default function ComparisonTable() {
                   <td className="font-federo text-base font-medium p-4 md:text-lg md:p-6">
                     {comparison.feature}
                   </td>
-                  <td className="font-fanwood-text text-base text-center p-4 md:text-lg md:p-6">
+                  <td className="font-swear-display text-base text-center p-4 md:text-lg md:p-6">
                     {comparison.altSendme}
                   </td>
-                  <td className="font-fanwood-text text-base text-center p-4 md:text-lg md:p-6">
+                  <td className="font-swear-display text-base text-center p-4 md:text-lg md:p-6">
                     {comparison.cloudSharing}
                   </td>
                 </tr>

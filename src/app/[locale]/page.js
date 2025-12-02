@@ -21,7 +21,7 @@ export default function Home() {
         <FeaturesGrid />
         <ComparisonTable />
         <Testimonial />
-        <PressReviews />
+        {/* <PressReviews /> */}
         <DownloadSection />
       </main>
 

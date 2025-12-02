@@ -43,7 +43,7 @@
     },
     "unlimited": {
       "title": "何でも転送",
-      "description": "任意のサイズのファイルやフォルダを確実に送信。"
+      "description": "任意のサイズや形式のファイルやフォルダを確実に送信。"
     },
     "noAccounts": {
       "title": "アカウント不要",
