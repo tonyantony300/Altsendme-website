@@ -23,6 +23,43 @@ const federo = Federo({
   subsets: ["latin"],
 });
 
+const keywords = [
+  "open source blip alternative",
+  "blip alternative",
+  "file transfer",
+  "peer-to-peer",
+  "P2P file sharing",
+  "encrypted file transfer",
+  "cross-platform file transfer",
+  "secure file sharing",
+  "private file transfer",
+  "free file transfer",
+  "unlimited file transfer",
+  "AltSendme",
+  "sendme",
+  "iroh",
+  "open source",
+  "free",
+  "unlimited",
+  "open source file transfer",
+  "free file transfer",
+  "unlimited file transfer",
+  "open source file sharing",
+  "free file sharing",
+  "unlimited file sharing",
+  "open source file transfer software",
+  "free file transfer software",
+  "unlimited file transfer software",
+  "open source file sharing software",
+  "free file sharing software",
+  "unlimited file sharing software",
+  "file sharing software",
+  "desktop file transfer",
+  "Windows file transfer",
+  "macOS file transfer",
+  "Linux file transfer",
+];
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -46,40 +83,7 @@ export async function generateMetadata({ params }) {
     metadataBase: new URL('https://altsendme.com'),
     title: t('meta.title'),
     description: t('meta.description'),
-    keywords: [
-      "file transfer",
-      "peer-to-peer",
-      "P2P file sharing",
-      "encrypted file transfer",
-      "cross-platform file transfer",
-      "secure file sharing",
-      "private file transfer",
-      "free file transfer",
-      "unlimited file transfer",
-      "AltSendme",
-      "sendme",
-      "iroh",
-      "open source",
-      "free",
-      "unlimited",
-      "open source file transfer",
-      "free file transfer",
-      "unlimited file transfer",
-      "open source file sharing",
-      "free file sharing",
-      "unlimited file sharing",
-      "open source file transfer software",
-      "free file transfer software",
-      "unlimited file transfer software",
-      "open source file sharing software",
-      "free file sharing software",
-      "unlimited file sharing software",
-      "file sharing software",
-      "desktop file transfer",
-      "Windows file transfer",
-      "macOS file transfer",
-      "Linux file transfer",
-    ],
+    keywords,
     authors: [{ name: "tonyantony300", url: "https://github.com/tonyantony300" }],
     creator: "tonyantony300",
     publisher: "AltSendme",
@@ -177,6 +181,7 @@ export default async function LocaleLayout({ children, params }) {
     <html lang={locale}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content={keywords.join(', ')} />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="format-detection" content="telephone=no" />

@@ -132,8 +132,8 @@
       }  
     }  
   },  
-  "meta": {  
-    "title": "Invia file ovunque | Senza problemi, Veloce, Privato, Illimitato e Gratuito",  
-    "description": "AltSendme è un'applicazione desktop multi-piattaforma peer-to-peer per il trasferimento di file senza problemi. Invia file e directory su Internet senza requisiti di account, crittografia end-to-end, trasferimenti illimitati e controllo completo della privacy. Disponibile per Windows, macOS e Linux."  
-  }  
+  "meta": {
+    "title": "Invia file ovunque | Senza problemi, Veloce, Privato, Illimitato e Gratuito",
+    "description": "AltSendme è un'applicazione desktop multi-piattaforma peer-to-peer per il trasferimento di file senza problemi. Alternativa open-source a blip, disponibile per Windows, macOS e Linux."
+  }
 }  

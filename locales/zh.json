@@ -134,6 +134,6 @@
   },
   "meta": {
     "title": "将文件发送到任何地方 | 无摩擦、快速、私密、无限且免费",
-    "description": "AltSendme 是一款无摩擦的点对点文件传输跨平台桌面应用程序。通过互联网发送文件和目录，无需账户要求，端到端加密，无限传输，完全隐私控制。适用于 Windows、macOS 和 Linux。"
+    "description": "AltSendme 是一款无摩擦的点对点文件传输跨平台桌面应用程序。开源 blip 替代品，适用于 Windows、macOS 和 Linux。"
   }
 }
