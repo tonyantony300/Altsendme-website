@@ -47,7 +47,7 @@ export default function DownloadSection() {
   ) || downloadOptions[0];
 
   return (
-    <section className="flex flex-col items-center pt-10 pb-20 px-5 w-full sm:pb-24 md:px-10 md:pb-28 lg:px-[60px] lg:pb-32">
+    <section id="download-section" className="flex flex-col items-center pt-10 pb-20 px-5 w-full sm:pb-24 md:px-10 md:pb-28 lg:px-[60px] lg:pb-32">
       <h2 className="font-swear-display text-[32px] leading-[1.2] text-center text-foreground font-normal mb-4 max-w-[600px] md:text-[40px] md:mb-6 lg:mb-8">
         {t('download.title')}
       </h2>

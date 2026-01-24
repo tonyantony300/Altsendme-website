@@ -9,6 +9,7 @@ import ComparisonTable from '@/components/ComparisonTable';
 import Testimonial from '@/components/Testimonial';
 import PressReviews from '@/components/PressReviews';
 import DownloadSection from '@/components/DownloadSection';
+import TallyPopup from '@/components/TallyPopup';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       </main>
 
       <Footer />
+      <TallyPopup />
     </div>
   );
 }

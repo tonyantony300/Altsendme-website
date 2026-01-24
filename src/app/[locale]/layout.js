@@ -185,6 +185,7 @@ export default async function LocaleLayout({ children, params }) {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="format-detection" content="telephone=no" />
+        <script src="https://tally.so/widgets/embed.js" async></script>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${federo.variable}`}>
         <NextIntlClientProvider messages={messages}>
