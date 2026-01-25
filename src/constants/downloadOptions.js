@@ -1,7 +1,7 @@
 // Single source of truth for download options
 // Labels are added dynamically using translations in components
 
-const VERSION = "0.2.4";
+const VERSION = "0.3.0";
 
 export const downloadOptionsData = [
   {
